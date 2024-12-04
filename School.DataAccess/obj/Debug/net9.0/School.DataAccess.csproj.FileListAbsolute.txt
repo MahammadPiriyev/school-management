@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\School\School.DataAccess\bin\Debug\net9.0\School.DataAccess.deps.json
+C:\Users\ASUS\source\repos\School\School.DataAccess\bin\Debug\net9.0\School.DataAccess.runtimeconfig.json
+C:\Users\ASUS\source\repos\School\School.DataAccess\bin\Debug\net9.0\School.DataAccess.dll
+C:\Users\ASUS\source\repos\School\School.DataAccess\bin\Debug\net9.0\School.DataAccess.pdb
+C:\Users\ASUS\source\repos\School\School.DataAccess\bin\Debug\net9.0\School.Entities.dll
+C:\Users\ASUS\source\repos\School\School.DataAccess\bin\Debug\net9.0\School.Entities.pdb
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.D.68EDD7B8.Up2Date
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.dll
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\refint\School.DataAccess.dll
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.pdb
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\ref\School.DataAccess.dll

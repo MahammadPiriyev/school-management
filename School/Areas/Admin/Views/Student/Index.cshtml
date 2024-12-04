@@ -1,0 +1,61 @@
+﻿@using School.Entities
+@model List<Student>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/student.css" rel="stylesheet"/>
+    <link href="~/css/dashboard.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>Student List</h2>
+            <div class="table-actions">
+                <input type="text" placeholder="Search by name..." />
+                <div class="custom-select">
+                    <select>
+                        <option value="">Select an option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                    </select>
+                </div>
+                <a class="btn btn-success">Search</a>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Class</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var student in Model)
+                    {
+                        <tr onclick="window.location='@Url.Action("Info", "Student", new { id = student.Id, area = "Admin" })'" style="cursor: pointer;">
+                            <td>@student.FirstName</td>
+                            <td>@student.LastName</td>
+                            <td>@student.Email</td>
+                            <td>@student.Phone</td>
+                            <td>@student.Class</td>
+                            <td><a asp-area="Admin" asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id" class="btn btn-warning">Update</a></td>
+                            <td><a asp-area="Admin" asp-controller="Student" asp-action="Delete" asp-route-id="@student.Id" class="btn btn-danger">Delete</a></td>
+                        </tr>                        
+                    }
+                <tbody>
+            </table>
+        </div>
+    </div>
+   
+</body>
+</html>
+

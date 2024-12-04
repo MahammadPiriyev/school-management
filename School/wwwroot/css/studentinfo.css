@@ -1,0 +1,19 @@
+﻿
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.student-info{
+    display: flex;
+    gap: 80px;
+}
+.student-info .title{
+    font-weight: bold;
+}

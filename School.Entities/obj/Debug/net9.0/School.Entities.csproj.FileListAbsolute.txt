@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\School\School.Entities\bin\Debug\net9.0\School.Entities.deps.json
+C:\Users\ASUS\source\repos\School\School.Entities\bin\Debug\net9.0\School.Entities.runtimeconfig.json
+C:\Users\ASUS\source\repos\School\School.Entities\bin\Debug\net9.0\School.Entities.dll
+C:\Users\ASUS\source\repos\School\School.Entities\bin\Debug\net9.0\School.Entities.pdb
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.dll
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\refint\School.Entities.dll
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.pdb
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\ref\School.Entities.dll
