@@ -1,4 +1,9 @@
-﻿
+﻿.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
 .profile{
     display: flex;
     justify-content: center;

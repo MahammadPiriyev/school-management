@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\School.i52jfw9wju.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css",
+      "PackagePath": "staticwebassets\\css\\class.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\classadd.css",
+      "PackagePath": "staticwebassets\\css\\classadd.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
@@ -27,6 +35,14 @@
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\studentinfo.css",
       "PackagePath": "staticwebassets\\css\\studentinfo.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacher.css",
+      "PackagePath": "staticwebassets\\css\\teacher.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacheradd.css",
+      "PackagePath": "staticwebassets\\css\\teacheradd.css"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\favicon.ico",

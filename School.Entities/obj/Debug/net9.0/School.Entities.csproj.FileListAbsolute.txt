@@ -12,3 +12,4 @@ C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\refint\School
 C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.pdb
 C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\ref\School.Entities.dll
+C:\Users\ASUS\source\repos\School\School.Entities\obj\Debug\net9.0\School.Entities.sourcelink.json

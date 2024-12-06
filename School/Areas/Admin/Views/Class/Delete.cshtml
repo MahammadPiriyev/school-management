@@ -1,0 +1,43 @@
+﻿@model Class
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Class</title>
+    <link rel="stylesheet" href="~/css/classadd.css">
+    <link rel="stylesheet" href="~/css  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Delete Class</h2>
+        <form method="post" class="student-form">
+            <input hidden asp-for="ClassId" />
+            <div class="form-section">
+                <!-- Student Details -->
+                <div class="form-group">
+                    <label for="name">Class Name *</label>
+                    <input disabled asp-for="Name" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="room">Room Number *</label>
+                    <select disabled asp-for="RoomNumber" id="room" required>
+                        <option value="" disabled selected>Please Select Class</option>
+                        <option value="room1">Room 1</option>
+                        <option value="room2">Room 2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="admission-date">Admission Date *</label>
+                    <input disabled asp-for="CreatedDate" type="date" id="admission-date" required>
+                </div>
+            </div>
+            <!-- Buttons -->
+            <div class="form-buttons">
+                <button type="submit" class="save-btn">Delete</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

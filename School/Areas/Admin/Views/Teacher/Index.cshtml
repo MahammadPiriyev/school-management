@@ -6,10 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="~/css/student.css" rel="stylesheet" />
-    <link href="~/css/dashboard.css" rel="stylesheet" />
+    <link href="~/css/teacher.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 <body>
     <div class="main">
@@ -41,18 +39,18 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var student in Model)
+                    @foreach (var teacher in Model)
                     {
-                        <tr>
-                            <td>@student.FirstName</td>
-                            <td>@student.LastName</td>
-                            <td>@student.Email</td>
-                            <td>@student.Phone</td>
-                            <td>@student.Address</td>
-                            <td>@student.Department</td>
-                            <td>@student.CreatedDate</td>
-                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Edit" asp-route-id="@student.Id" class="btn btn-outline-warning">Update</a></td>
-                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Delete" asp-route-id="@student.Id" class="btn btn-outline-danger">Delete</a></td>
+                        <tr onclick="window.location='@Url.Action("Info", "Teacher", new { id = teacher.Id, area = "Admin" })'" style="cursor: pointer;">
+                            <td>@teacher.FirstName</td>
+                            <td>@teacher.LastName</td>
+                            <td>@teacher.Email</td>
+                            <td>@teacher.Phone</td>
+                            <td>@teacher.Address</td>
+                            <td>@teacher.Department</td>
+                            <td>@teacher.CreatedDate</td>
+                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Edit" asp-route-id="@teacher.Id" class="btn btn-outline-warning">Update</a></td>
+                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Delete" asp-route-id="@teacher.Id" class="btn btn-outline-danger">Delete</a></td>
                         </tr>
                     }
 

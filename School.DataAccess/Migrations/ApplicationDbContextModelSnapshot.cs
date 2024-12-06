@@ -250,6 +250,30 @@ namespace School.DataAccess.Migrations
                     b.UseTpcMappingStrategy();
                 });
 
+            modelBuilder.Entity("School.Entities.Class", b =>
+                {
+                    b.Property<int>("ClassId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClassId"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoomNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ClassId");
+
+                    b.ToTable("Classes");
+                });
+
             modelBuilder.Entity("School.Entities.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
@@ -273,12 +297,13 @@ namespace School.DataAccess.Migrations
                 {
                     b.HasBaseType("School.Entities.Abstract.IBaseEntity");
 
-                    b.Property<string>("Class")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ClassId")
+                        .HasColumnType("int");
 
                     b.Property<int>("GPA")
                         .HasColumnType("int");
+
+                    b.HasIndex("ClassId");
 
                     b.ToTable("Students");
                 });
@@ -292,6 +317,22 @@ namespace School.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("School.Entities.Student", b =>
+                {
+                    b.HasOne("School.Entities.Class", "Class")
+                        .WithMany("Students")
+                        .HasForeignKey("ClassId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Class");
+                });
+
+            modelBuilder.Entity("School.Entities.Class", b =>
+                {
+                    b.Navigation("Students");
                 });
 #pragma warning restore 612, 618
         }

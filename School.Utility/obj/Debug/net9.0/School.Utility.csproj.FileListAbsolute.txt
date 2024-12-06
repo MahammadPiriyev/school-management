@@ -10,3 +10,4 @@ C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\School.Utility
 C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\refint\School.Utility.dll
 C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\School.Utility.pdb
 C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\ref\School.Utility.dll
+C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\School.Utility.sourcelink.json

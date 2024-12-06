@@ -19,6 +19,7 @@ namespace School.DataAccess.Data
 		}
 		public DbSet<Student> Students { get; set; }
 		public DbSet<Teacher> Teachers { get; set; }
+		public DbSet<Class> Classes { get; set; }
 		public DbSet<ApplicationUser> applicationUser { get; set; }
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
@@ -32,6 +33,10 @@ namespace School.DataAccess.Data
 				.HasNoKey();
 			modelBuilder.Entity<IdentityUserToken<string>>()
 				.HasNoKey();
+			modelBuilder.Entity<Student>()
+				.HasOne(s => s.Class)
+				.WithMany(c => c.Students)
+				.HasForeignKey(s => s.ClassId);
 		}
 	}
 

@@ -10,7 +10,9 @@ namespace School.Entities
 {
 	public class Student : IBaseEntity
 	{
-		public string Class { get; set; }
+		public int ClassId { get; set; }
+		[ValidateNever]
+		public virtual Class Class { get; set; }
 		public int GPA { get; set; }
 	}
 }

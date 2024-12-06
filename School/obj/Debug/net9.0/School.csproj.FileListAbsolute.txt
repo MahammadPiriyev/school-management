@@ -430,4 +430,9 @@ C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\rectwca3cg-
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\kupfn7pkno-7xa2so4cto.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\69vk8ruw8b-57ni4c40tc.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\ktd2ve4v3t-cy3uvi8gqg.gz
-C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\f4tqiqbovx-ylx3tppnkv.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\School.sourcelink.json
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\58a9atdlq3-3ydlekyopw.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\p77dq7uucr-gim011n1q0.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\f4tqiqbovx-l6zfdwxsyo.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\vnww3t3imm-gim011n1q0.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\iy458z7xlu-3ydlekyopw.gz

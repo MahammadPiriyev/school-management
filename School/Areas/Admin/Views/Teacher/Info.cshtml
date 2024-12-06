@@ -1,0 +1,54 @@
+﻿@model Teacher
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="~/css/studentinfo.css">
+</head>
+<body>
+  <div class="container">
+      <header>
+          <img src="" alt="" />
+      </header>
+      <div class="profile">
+          <div class="profile-img">
+              <img src="~/images/3135715.png" alt="" style="width: 200px; height: 200px;"/>
+          </div>
+          <div class="profile-info">
+              <div class="student-about">
+                  <h3>@Model.FirstName @Model.LastName</h3>
+                  <p>Student info is about like this</p>
+              </div>
+              <div class="student-info">
+                  <div class="title">
+                        <p>ID Number: </p>
+                        <p>First Name: </p>
+                        <p>Last Name: </p>
+                        <p>Gender: </p>
+                        <p>Date of Birth:  </p>
+                        <p>Email: </p>
+                        <p>Phone: </p>
+                        <p>Address: </p>
+                        <p>Department: </p>
+                        <p>Admission Date: </p>
+                  </div>
+                  <div>
+                        <p>@Model.Id</p>
+                        <p>@Model.FirstName</p>
+                        <p>@Model.LastName</p>
+                        <p>@Model.Gender</p>
+                        <p>@Model.BirthDate</p>
+                        <p>@Model.Email</p>
+                        <p>@Model.Phone</p>
+                        <p>@Model.Address</p>
+                        <p>@Model.Department</p>
+                        <p>@Model.CreatedDate</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

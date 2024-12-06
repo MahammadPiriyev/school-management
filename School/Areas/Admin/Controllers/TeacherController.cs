@@ -18,6 +18,11 @@ namespace School.Areas.Admin.Controllers
 			var teacherList = _unitOfWork.Teachers.GetAll().ToList();
 			return View(teacherList);
 		}
+		public IActionResult Info(int id)
+		{
+			var teacherFromDb = _unitOfWork.Teachers.Get(t => t.Id == id);
+			return View(teacherFromDb);
+		}
 		public IActionResult Add()
 		{
 			return View();
@@ -52,19 +57,15 @@ namespace School.Areas.Admin.Controllers
 			return RedirectToAction(nameof(Index));
 		}
 
-		[HttpDelete]
 		public IActionResult Delete(int id)
 		{
-			if (id == 0)
-			{
-				return NotFound();
-			}
-			var studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
-			if (studentFromDb == null)
-			{
-				return NotFound();
-			}
-			_unitOfWork.Students.Remove(studentFromDb);
+			var teacherFromDb = _unitOfWork.Teachers.Get(s => s.Id == id);
+			return View(teacherFromDb);
+		}
+		[HttpPost]
+		public IActionResult Delete(Teacher teacher)
+		{
+			_unitOfWork.Teachers.Remove(teacher);
 			_unitOfWork.Save();
 			return RedirectToAction(nameof(Index));
 		}

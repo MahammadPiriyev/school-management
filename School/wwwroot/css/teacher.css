@@ -1,0 +1,73 @@
+﻿.container {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.main {
+    padding: 30px;
+}
+
+.table {
+    border: 1px solid gray;
+    margin-top: 30px;
+}
+
+    .table thead tr th {
+        color: #1c2431;
+    }
+
+.table-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+    .table-actions input {
+        width: 500px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .table-actions a {
+        width: 300px;
+        padding: 10px;
+    }
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.custom-select::after {
+    content: '\25BC'; /* Downward arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #333;
+}
+
+.custom-select select:hover {
+    border-color: #888;
+}
+
+tbody tr {
+    cursor: pointer;
+}

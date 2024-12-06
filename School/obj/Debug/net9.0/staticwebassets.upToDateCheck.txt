@@ -4,6 +4,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\teacheradd.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\css\sidebar.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
@@ -31,6 +32,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\classadd.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
@@ -46,6 +48,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\teacher.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
@@ -58,6 +61,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\class.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
@@ -65,12 +69,16 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap
 C:\Users\ASUS\source\repos\School\School\wwwroot\favicon.ico
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\css\class.css
+wwwroot\css\classadd.css
 wwwroot\css\dashboard.css
 wwwroot\css\sidebar.css
 wwwroot\css\site.css
 wwwroot\css\student.css
 wwwroot\css\studentadd.css
 wwwroot\css\studentinfo.css
+wwwroot\css\teacher.css
+wwwroot\css\teacheradd.css
 wwwroot\favicon.ico
 wwwroot\images\3135715.png
 wwwroot\images\Admin+Panel.png

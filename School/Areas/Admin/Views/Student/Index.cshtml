@@ -46,7 +46,7 @@
                             <td>@student.LastName</td>
                             <td>@student.Email</td>
                             <td>@student.Phone</td>
-                            <td>@student.Class</td>
+                            <td>@student.Class.Name</td>
                             <td><a asp-area="Admin" asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id" class="btn btn-warning">Update</a></td>
                             <td><a asp-area="Admin" asp-controller="Student" asp-action="Delete" asp-route-id="@student.Id" class="btn btn-danger">Delete</a></td>
                         </tr>                        

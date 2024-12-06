@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wej2IWL5VUkWyTK8NakqWGJtRaTLMSUUaxwXhhEM0yw=",
+  "Hash": "jBW755BXU64hugYEqjwjwGIeUe2+itG7ORfnYKGpELg=",
   "Source": "School",
   "BasePath": "_content/School",
   "Mode": "Default",
@@ -1613,6 +1613,27 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\58a9atdlq3-3ydlekyopw.gz",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/teacheradd#[.{fingerprint=3ydlekyopw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacheradd.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1mlea95weg",
+      "Integrity": "6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacheradd.css"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\5frikdeg15-r4e9w2rdcm.gz",
       "SourceId": "School",
       "SourceType": "Discovered",
@@ -2222,12 +2243,12 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-ylx3tppnkv.gz",
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-l6zfdwxsyo.gz",
       "SourceId": "School",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/School",
-      "RelativePath": "css/studentinfo#[.{fingerprint=ylx3tppnkv}]?.css.gz",
+      "RelativePath": "css/studentinfo#[.{fingerprint=l6zfdwxsyo}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2236,8 +2257,8 @@
       "RelatedAsset": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\studentinfo.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s2uxh4agrk",
-      "Integrity": "hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc=",
+      "Fingerprint": "apo2tm60hg",
+      "Integrity": "cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\studentinfo.css"
@@ -2577,6 +2598,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\iy458z7xlu-3ydlekyopw.gz",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/classadd#[.{fingerprint=3ydlekyopw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\classadd.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1mlea95weg",
+      "Integrity": "6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\classadd.css"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\iznc766avz-nvvlpmu67g.gz",
@@ -3167,6 +3209,27 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\p77dq7uucr-gim011n1q0.gz",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/teacher#[.{fingerprint=gim011n1q0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacher.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hszwzhp3zj",
+      "Integrity": "MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacher.css"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\pogzkicjpz-0j3bgjxly4.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -3755,6 +3818,27 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\js\\site.js"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\vnww3t3imm-gim011n1q0.gz",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/class#[.{fingerprint=gim011n1q0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hszwzhp3zj",
+      "Integrity": "MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\vsrbd71spn-lcd1t2u6c8.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -4133,6 +4217,48 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\School.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/class#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gim011n1q0",
+      "Integrity": "CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\class.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\classadd.css",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/classadd#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ydlekyopw",
+      "Integrity": "JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\classadd.css"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\dashboard.css",
       "SourceId": "School",
       "SourceType": "Discovered",
@@ -4252,11 +4378,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ylx3tppnkv",
-      "Integrity": "GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A=",
+      "Fingerprint": "l6zfdwxsyo",
+      "Integrity": "I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\studentinfo.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacher.css",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/teacher#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gim011n1q0",
+      "Integrity": "CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\teacher.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacheradd.css",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "css/teacheradd#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ydlekyopw",
+      "Integrity": "JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\teacheradd.css"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\favicon.ico",
@@ -5625,6 +5793,602 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/class.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\vnww3t3imm-gim011n1q0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001941747573"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 11:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 11:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\vnww3t3imm-gim011n1q0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 11:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.gim011n1q0.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\vnww3t3imm-gim011n1q0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001941747573"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 11:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gim011n1q0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/class.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.gim011n1q0.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 11:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gim011n1q0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/class.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.gim011n1q0.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\vnww3t3imm-gim011n1q0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 11:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gim011n1q0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/class.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/classadd.3ydlekyopw.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\iy458z7xlu-3ydlekyopw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001623376623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ydlekyopw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/classadd.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/classadd.3ydlekyopw.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\classadd.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ydlekyopw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/classadd.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/classadd.3ydlekyopw.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\iy458z7xlu-3ydlekyopw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ydlekyopw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/classadd.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY="
+        }
+      ]
+    },
+    {
+      "Route": "css/classadd.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\iy458z7xlu-3ydlekyopw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001623376623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/classadd.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\classadd.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/classadd.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\iy458z7xlu-3ydlekyopw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 12:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY="
+        }
+      ]
+    },
     {
       "Route": "css/dashboard.7xa2so4cto.css",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\kupfn7pkno-7xa2so4cto.gz",
@@ -7154,12 +7918,12 @@
     },
     {
       "Route": "css/studentinfo.css",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-ylx3tppnkv.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-l6zfdwxsyo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.012048192771"
+          "Quality": "0.005181347150"
         }
       ],
       "ResponseHeaders": [
@@ -7169,15 +7933,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82"
+          "Value": "192"
         },
         {
           "Name": "ETag",
-          "Value": "\"hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc=\""
+          "Value": "\"cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:38:15 GMT"
+          "Value": "Fri, 06 Dec 2024 11:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7197,13 +7961,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A=\""
+          "Value": "W/\"I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A="
+          "Value": "sha256-I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA="
         }
       ]
     },
@@ -7218,7 +7982,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "69"
+          "Value": "384"
         },
         {
           "Name": "Content-Type",
@@ -7226,11 +7990,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A=\""
+          "Value": "\"I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:38:15 GMT"
+          "Value": "Fri, 06 Dec 2024 11:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7240,13 +8004,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A="
+          "Value": "sha256-I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA="
         }
       ]
     },
     {
       "Route": "css/studentinfo.css.gz",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-ylx3tppnkv.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-l6zfdwxsyo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7255,7 +8019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82"
+          "Value": "192"
         },
         {
           "Name": "Content-Type",
@@ -7263,11 +8027,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc=\""
+          "Value": "\"cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:38:15 GMT"
+          "Value": "Fri, 06 Dec 2024 11:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7285,18 +8049,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc="
+          "Value": "sha256-cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc="
         }
       ]
     },
     {
-      "Route": "css/studentinfo.ylx3tppnkv.css",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-ylx3tppnkv.gz",
+      "Route": "css/studentinfo.l6zfdwxsyo.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-l6zfdwxsyo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.012048192771"
+          "Quality": "0.005181347150"
         }
       ],
       "ResponseHeaders": [
@@ -7306,15 +8070,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82"
+          "Value": "192"
         },
         {
           "Name": "ETag",
-          "Value": "\"hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc=\""
+          "Value": "\"cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:38:15 GMT"
+          "Value": "Fri, 06 Dec 2024 11:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7334,13 +8098,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A=\""
+          "Value": "W/\"I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ylx3tppnkv"
+          "Value": "l6zfdwxsyo"
         },
         {
           "Name": "label",
@@ -7348,12 +8112,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A="
+          "Value": "sha256-I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA="
         }
       ]
     },
     {
-      "Route": "css/studentinfo.ylx3tppnkv.css",
+      "Route": "css/studentinfo.l6zfdwxsyo.css",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\studentinfo.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7363,7 +8127,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "69"
+          "Value": "384"
         },
         {
           "Name": "Content-Type",
@@ -7371,11 +8135,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A=\""
+          "Value": "\"I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:38:15 GMT"
+          "Value": "Fri, 06 Dec 2024 11:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7385,7 +8149,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ylx3tppnkv"
+          "Value": "l6zfdwxsyo"
         },
         {
           "Name": "label",
@@ -7393,13 +8157,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GqJrJ2QB5771+p0V2QPTIM95GNzY1G021M2udiZkx6A="
+          "Value": "sha256-I+MAJcf7hQecH6y7uc/xZBKoxIk6b78QMCu2zHNDfpA="
         }
       ]
     },
     {
-      "Route": "css/studentinfo.ylx3tppnkv.css.gz",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-ylx3tppnkv.gz",
+      "Route": "css/studentinfo.l6zfdwxsyo.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\f4tqiqbovx-l6zfdwxsyo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7408,7 +8172,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82"
+          "Value": "192"
         },
         {
           "Name": "Content-Type",
@@ -7416,11 +8180,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc=\""
+          "Value": "\"cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 17:38:15 GMT"
+          "Value": "Fri, 06 Dec 2024 11:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7438,7 +8202,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ylx3tppnkv"
+          "Value": "l6zfdwxsyo"
         },
         {
           "Name": "label",
@@ -7446,7 +8210,603 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hPc78plUc+09C8lN/LHKTvxDWF7NA+ECV+BAPRJwSYc="
+          "Value": "sha256-cmER4kHS2tKCIhXL9w6OC0RHuUDENLoy90KnOt2vDAc="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacher.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\p77dq7uucr-gim011n1q0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001941747573"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacher.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacher.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacher.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\p77dq7uucr-gim011n1q0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacher.gim011n1q0.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\p77dq7uucr-gim011n1q0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001941747573"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gim011n1q0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/teacher.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacher.gim011n1q0.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacher.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gim011n1q0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/teacher.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJm46LU4vMeqh3jkpsBDu5ha2YPBK0MyGXLvjREju8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacher.gim011n1q0.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\p77dq7uucr-gim011n1q0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gim011n1q0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/teacher.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbTP2vDkAsQOmtSHNcFG9SQq9X9lrOq/KwUY/15oYPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacheradd.3ydlekyopw.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\58a9atdlq3-3ydlekyopw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001623376623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ydlekyopw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/teacheradd.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacheradd.3ydlekyopw.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacheradd.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ydlekyopw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/teacheradd.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacheradd.3ydlekyopw.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\58a9atdlq3-3ydlekyopw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ydlekyopw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/teacheradd.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacheradd.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\58a9atdlq3-3ydlekyopw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001623376623"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacheradd.css",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\teacheradd.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQg2nEskxVuvowbl1kYyhfqUpGlaj5m+grr/4FiQUxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/teacheradd.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\58a9atdlq3-3ydlekyopw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 10:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6cLren7ggQkfiOO0j+aqJiMTY3NWtrQnNVH8qIoaJDY="
         }
       ]
     },
@@ -36806,7 +38166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36859,7 +38219,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36896,7 +38256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36943,7 +38303,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37004,7 +38364,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37049,7 +38409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37104,7 +38464,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37165,7 +38525,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37210,7 +38570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37265,7 +38625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37318,7 +38678,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37355,7 +38715,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 14:50:04 GMT"
+          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
         },
         {
           "Name": "Cache-Control",

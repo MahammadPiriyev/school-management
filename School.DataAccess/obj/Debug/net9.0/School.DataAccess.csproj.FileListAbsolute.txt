@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\refint\Scho
 C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.pdb
 C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\ref\School.DataAccess.dll
+C:\Users\ASUS\source\repos\School\School.DataAccess\obj\Debug\net9.0\School.DataAccess.sourcelink.json

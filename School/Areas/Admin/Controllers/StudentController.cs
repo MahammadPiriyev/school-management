@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using School.DataAccess.Data;
 using School.DataAccess.Repository;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
@@ -9,10 +11,12 @@ namespace School.Areas.Admin.Controllers
 	public class StudentController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;
+		private readonly ApplicationDbContext _context;
 		public IEnumerable<Student> Students { get; set; }
-		public StudentController(IUnitOfWork unitOfWork)
+		public StudentController(IUnitOfWork unitOfWork, ApplicationDbContext context)
 		{
 			_unitOfWork = unitOfWork;
+			_context = context;
 		}
 		public IActionResult Index()
 		{
@@ -31,6 +35,12 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Add()
 		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(u => new SelectListItem
+			{
+				Text = u.Name,
+				Value = u.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
 			return View();
 		}
 		[HttpPost]
