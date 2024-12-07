@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using School.DataAccess.Data;
 using School.DataAccess.Repository;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
@@ -9,9 +11,11 @@ namespace School.Areas.Admin.Controllers
 	public class TeacherController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;
-		public TeacherController(IUnitOfWork unitOfWork)
+		private readonly ApplicationDbContext _context;
+		public TeacherController(IUnitOfWork unitOfWork, ApplicationDbContext context)
 		{
 			_unitOfWork = unitOfWork;
+			_context = context;
 		}
 		public IActionResult Index()
 		{
@@ -25,6 +29,11 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Add()
 		{
+			//IEnumerable<SelectListItem> DepartmentList = _context.Departments.Select(d => new SelectListItem
+			//{
+			//	Text = d.Name,
+			//	Value = d.DepartmentId
+			//});
 			return View();
 		}
 		[HttpPost]

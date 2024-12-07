@@ -11,6 +11,7 @@ namespace School.DataAccess.Repository.IRepository
 		IStudentRepository Students { get; }
 		ITeacherRepository Teachers { get; }
 		IClassRepository Classes { get; }
+		IDepartmentRepository Departments { get; }
 		void Save();
 	}
 }

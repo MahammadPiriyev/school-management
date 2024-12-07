@@ -20,6 +20,7 @@ namespace School.DataAccess.Data
 		public DbSet<Student> Students { get; set; }
 		public DbSet<Teacher> Teachers { get; set; }
 		public DbSet<Class> Classes { get; set; }
+		public DbSet<Department> Departments { get; set; }
 		public DbSet<ApplicationUser> applicationUser { get; set; }
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
@@ -37,6 +38,10 @@ namespace School.DataAccess.Data
 				.HasOne(s => s.Class)
 				.WithMany(c => c.Students)
 				.HasForeignKey(s => s.ClassId);
+			modelBuilder.Entity<Teacher>()
+				.HasOne(t => t.Department)
+				.WithMany(d => d.Teachers)
+				.HasForeignKey(t => t.DepartmentId);
 		}
 	}
 

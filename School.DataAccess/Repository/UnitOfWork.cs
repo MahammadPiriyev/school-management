@@ -15,6 +15,7 @@ namespace School.DataAccess.Repository
 		public IStudentRepository Students {  get; private set; }
 		public ITeacherRepository Teachers { get; private set; }
 		public IClassRepository Classes { get; private set; }
+		public IDepartmentRepository Departments { get; private set; }
 
 
 		public UnitOfWork(ApplicationDbContext context)
@@ -23,6 +24,7 @@ namespace School.DataAccess.Repository
 			Students = new StudentRepository(_context);
 			Teachers = new TeacherRepository(_context);
 			Classes = new ClassRepository(_context);
+			Departments = new DepartmentRepository(_context);
 		}
 		public void Save()
 		{

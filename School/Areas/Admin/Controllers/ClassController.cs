@@ -24,8 +24,7 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Add(int id)
 		{
-			var classFromDb = _unitOfWork.Classes.Get(c => c.ClassId == id);
-			return View(classFromDb);
+			return View();
 		}
 		[HttpPost]
 		public IActionResult Add(Class @class)

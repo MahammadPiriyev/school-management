@@ -53,6 +53,12 @@ namespace School.Areas.Admin.Controllers
 
 		public IActionResult Edit(int id)
 		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(u => new SelectListItem
+			{
+				Text = u.Name,
+				Value = u.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
 			if (id == 0)
 			{
 				return NotFound();
@@ -75,6 +81,12 @@ namespace School.Areas.Admin.Controllers
 
 		public IActionResult Delete(int id)
 		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(u => new SelectListItem
+			{
+				Text = u.Name,
+				Value = u.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
 			var studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
 			return View(studentFromDb);
 		}
