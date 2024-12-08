@@ -64,6 +64,19 @@
                         <a asp-area="Admin" asp-controller="Class" asp-action="Add">Add Class</a>
                     </div>
                 </div>
+                <div class="dropdown">
+                    <a href="javascript:void(0)" class="dropdown-btn">
+                        <div>
+                            <i class="fa-solid fa-chalkboard"></i>
+                            <span>Departments</span>
+                        </div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a asp-area="Admin" asp-controller="Department" asp-action="Index">View Departments</a>
+                        <a asp-area="Admin" asp-controller="Department" asp-action="Add">Add Department</a>
+                    </div>
+                </div>
                 <a asp-area="Admin" asp-controller="Subject" asp-action="Index"><i class="fa-regular fa-newspaper"></i> <span>Subjects</span></a>
                 <a asp-area="Admin" asp-controller="Report" asp-action="Index"><i class="fa-solid fa-magnifying-glass-chart"></i> <span>Reports</span></a>
             </div>

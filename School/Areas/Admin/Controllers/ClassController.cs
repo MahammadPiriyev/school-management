@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
+using School.Entities.ViewModels;
 
 namespace School.Areas.Admin.Controllers
 {
@@ -19,8 +20,15 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Info(int id)
 		{
-			var classFromDb = _unitOfWork.Classes.Get(c => c.ClassId == id);
-			return View(classFromDb);
+			var classFromDb = _unitOfWork.Classes.Get(s => s.ClassId == id);
+			var viewModel = new ClassViewModel
+			{
+				ClassName = classFromDb.Name,
+				Students = classFromDb.Students
+				.Select(s => new StudentViewModel { Id = s.Id, FirstName = s.FirstName, LastName = s.LastName })
+				.ToList()
+			};
+			return View(viewModel);
 		}
 		public IActionResult Add(int id)
 		{

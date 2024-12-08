@@ -436,3 +436,5 @@ C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\p77dq7uucr-
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\f4tqiqbovx-l6zfdwxsyo.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\vnww3t3imm-gim011n1q0.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\iy458z7xlu-3ydlekyopw.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\6jdoa1f7rs-gim011n1q0.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\odu80lpomo-7ksok38aa0.gz

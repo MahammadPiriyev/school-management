@@ -1,0 +1,92 @@
+﻿/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	margin: 0;
+	padding: 0;
+}
+
+/* Container */
+.container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+h2 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.form-section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.form-group {
+	flex: 1 1 calc(50% - 20px);
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input, select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+	input[type="file"] {
+		padding: 0;
+	}
+
+/* Photo Upload */
+.photo-upload {
+	flex: 1 1 100%;
+	text-align: center;
+}
+
+	.photo-upload input {
+		margin-top: 10px;
+	}
+
+/* Buttons */
+.form-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.save-btn {
+	background-color: #d32f2f;
+	color: white;
+}
+
+.reset-btn {
+	background-color: #1976d2;
+	color: white;
+}
+
+button:hover {
+	opacity: 0.9;
+}

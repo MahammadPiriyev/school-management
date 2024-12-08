@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
+using School.Entities.ViewModels;
 
 namespace School.Areas.Admin.Controllers
 {
+	[Area("Admin")]
 	public class DepartmentController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;
@@ -20,7 +23,14 @@ namespace School.Areas.Admin.Controllers
 		public IActionResult Info(int id)
 		{
 			var departmentFromDb = _unitOfWork.Departments.Get(d => d.DepartmentId == id);
-			return View(departmentFromDb);	
+			var departmentViewModel = new DepartmentViewModel
+			{
+				DepartmentName = departmentFromDb.Name,
+				Teachers = departmentFromDb.Teachers
+				.Select(t => new TeacherViewModel {Id = t.Id, FirstName = t.FirstName, LastName = t.LastName})
+				.ToList()
+			};
+			return View(departmentViewModel);	
 		}
 
 		public IActionResult Add()

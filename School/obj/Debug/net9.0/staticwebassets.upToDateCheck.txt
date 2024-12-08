@@ -7,6 +7,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\css\teacheradd.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\css\sidebar.css
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\department.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.slim.min.js
@@ -48,6 +49,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\departmentadd.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\css\teacher.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.js
@@ -72,6 +74,8 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\addi
 wwwroot\css\class.css
 wwwroot\css\classadd.css
 wwwroot\css\dashboard.css
+wwwroot\css\department.css
+wwwroot\css\departmentadd.css
 wwwroot\css\sidebar.css
 wwwroot\css\site.css
 wwwroot\css\student.css

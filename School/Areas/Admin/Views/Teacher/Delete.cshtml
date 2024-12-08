@@ -44,10 +44,8 @@
                 </div>
                 <div class="form-group">
                     <label for="class">Department *</label>
-                    <select disabled asp-for="Department" id="department" required>
+                    <select disabled asp-for="DepartmentId" asp-items="@ViewData["DepartmentList"] as IEnumerable<SelectListItem>" id="department" required>
                         <option value="" disabled selected>Please Select Department</option>
-                        <option value="department1">Department 1</option>
-                        <option value="department2">Department 2</option>
                     </select>
                 </div>
                 <div class="form-group">

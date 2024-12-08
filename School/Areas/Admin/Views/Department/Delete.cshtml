@@ -1,0 +1,31 @@
+﻿@model Department
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Department</title>
+    <link rel="stylesheet" href="~/css/departmentadd.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add New Department</h2>
+        <form method="post" class="student-form">
+            <input hidden asp-for="DepartmentId" />
+            <div class="form-section">
+                <!-- Student Details -->
+                <div class="form-group">
+                    <label for="name">Department Name *</label>
+                    <input disabled asp-for="Name" id="name" required>
+                </div>
+            </div>
+            <!-- Buttons -->
+            <div class="form-buttons">
+                <button type="submit" class="save-btn">Delete</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

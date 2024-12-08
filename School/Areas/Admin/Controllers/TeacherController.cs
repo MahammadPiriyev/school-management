@@ -29,11 +29,12 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Add()
 		{
-			//IEnumerable<SelectListItem> DepartmentList = _context.Departments.Select(d => new SelectListItem
-			//{
-			//	Text = d.Name,
-			//	Value = d.DepartmentId
-			//});
+			IEnumerable<SelectListItem> DepartmentList = _context.Departments.Select(d => new SelectListItem
+			{
+				Text = d.Name,
+				Value = d.DepartmentId.ToString()
+			});
+			ViewData["DepartmentList"] = DepartmentList;
 			return View();
 		}
 		[HttpPost]
@@ -46,6 +47,12 @@ namespace School.Areas.Admin.Controllers
 
 		public IActionResult Edit(int id)
 		{
+			IEnumerable<SelectListItem> DepartmentList = _context.Departments.Select(d => new SelectListItem
+			{
+				Text = d.Name,
+				Value = d.DepartmentId.ToString()
+			});
+			ViewData["DepartmentList"] = DepartmentList;
 			if (id == 0)
 			{
 				return NotFound();
@@ -68,6 +75,12 @@ namespace School.Areas.Admin.Controllers
 
 		public IActionResult Delete(int id)
 		{
+			IEnumerable<SelectListItem> DepartmentList = _context.Departments.Select(d => new SelectListItem
+			{
+				Text = d.Name,
+				Value = d.DepartmentId.ToString()
+			});
+			ViewData["DepartmentList"] = DepartmentList;
 			var teacherFromDb = _unitOfWork.Teachers.Get(s => s.Id == id);
 			return View(teacherFromDb);
 		}

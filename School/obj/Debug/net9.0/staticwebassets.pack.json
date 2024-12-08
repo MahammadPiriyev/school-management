@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\department.css",
+      "PackagePath": "staticwebassets\\css\\department.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\departmentadd.css",
+      "PackagePath": "staticwebassets\\css\\departmentadd.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\sidebar.css",
       "PackagePath": "staticwebassets\\css\\sidebar.css"
     },
