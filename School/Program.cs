@@ -5,21 +5,25 @@ using School.DataAccess.Repository.IRepository;
 using School.DataAccess.Repository;
 using School.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using StackExchange.Redis;
+using School.Business.Abstract;
+using School.Business.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options
     .UseLazyLoadingProxies()
     .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddRazorPages();
-
+//Add repo
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 builder.Services.AddScoped<IClassRepository, ClassRepository>();
+//Add business services
+builder.Services.AddScoped<IStudentService, StudentService>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {

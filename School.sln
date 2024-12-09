@@ -14,6 +14,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Entities", "School.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Utility", "School.Utility\School.Utility.csproj", "{E4E724EA-BB4C-419E-9932-2E27F5DADD49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Business", "School.Business\School.Business.csproj", "{22DFA2AE-EEBB-4E88-84E3-8D518ACD0EEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C763A0E9-DAB6-4D1C-A211-84A6F70F1347} = {C763A0E9-DAB6-4D1C-A211-84A6F70F1347}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +41,10 @@ Global
 		{E4E724EA-BB4C-419E-9932-2E27F5DADD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E724EA-BB4C-419E-9932-2E27F5DADD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E724EA-BB4C-419E-9932-2E27F5DADD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DFA2AE-EEBB-4E88-84E3-8D518ACD0EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DFA2AE-EEBB-4E88-84E3-8D518ACD0EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DFA2AE-EEBB-4E88-84E3-8D518ACD0EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DFA2AE-EEBB-4E88-84E3-8D518ACD0EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

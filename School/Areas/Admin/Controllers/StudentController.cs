@@ -4,6 +4,10 @@ using School.DataAccess.Data;
 using School.DataAccess.Repository;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
+using StackExchange.Redis;
+using System.Text.Json.Serialization;
+using System.Text.Json;
+using School.Business.Abstract;
 
 namespace School.Areas.Admin.Controllers
 {
@@ -12,27 +16,26 @@ namespace School.Areas.Admin.Controllers
 	{
 		private readonly IUnitOfWork _unitOfWork;
 		private readonly ApplicationDbContext _context;
-		public IEnumerable<Student> Students { get; set; }
-		public StudentController(IUnitOfWork unitOfWork, ApplicationDbContext context)
+		private readonly IStudentService _studentService;
+		public StudentController(IUnitOfWork unitOfWork, ApplicationDbContext context, IStudentService studentService)
 		{
 			_unitOfWork = unitOfWork;
 			_context = context;
+			_studentService = studentService;
 		}
 		public IActionResult Index()
 		{
-			List<Student> studentList = _unitOfWork.Students.GetAll().ToList();
-			return View(studentList);
+			return View(_studentService.GetAllStudents());
 		}
 		public IActionResult Info(int id)
 		{
-			Student studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
-			return View(studentFromDb);
+			return View(_studentService.GetStudentInfo(id));
 		}
-		public IActionResult Get(int id)
-		{
-			var studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
-			return View(studentFromDb);
-		}
+		//public IActionResult Get(int id)
+		//{
+		//	var studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
+		//	return View(studentFromDb);
+		//}
 		public IActionResult Add()
 		{
 			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(u => new SelectListItem
@@ -46,8 +49,7 @@ namespace School.Areas.Admin.Controllers
 		[HttpPost]
 		public IActionResult Add(Student student)
 		{
-			_unitOfWork.Students.Add(student);
-			_unitOfWork.Save();
+			_studentService.Add(student);
 			return RedirectToAction(nameof(Index));
 		}
 
@@ -63,19 +65,13 @@ namespace School.Areas.Admin.Controllers
 			{
 				return NotFound();
 			}
-			var studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
-			if (studentFromDb == null)
-			{
-				return NotFound();
-			}
-			return View(studentFromDb);
+			return View(_studentService.EditStudent(id));
 		}
 
 		[HttpPost]
 		public IActionResult Edit(Student student)
 		{
-			_unitOfWork.Students.Update(student);
-			_unitOfWork.Save();
+			_studentService.Edit(student);
 			return RedirectToAction(nameof(Index));
 		}
 
@@ -87,14 +83,12 @@ namespace School.Areas.Admin.Controllers
 				Value = u.ClassId.ToString()
 			});
 			ViewData["ClassList"] = ClassList;
-			var studentFromDb = _unitOfWork.Students.Get(s => s.Id == id);
-			return View(studentFromDb);
+			return View(_studentService.DeleteStudent(id));
 		}
 		[HttpPost]
 		public IActionResult Delete(Student student)
 		{
-			_unitOfWork.Students.Remove(student);
-			_unitOfWork.Save();
+			_studentService.Delete(student);
 			return RedirectToAction(nameof(Index));
 		}
 

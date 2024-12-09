@@ -24,9 +24,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.22" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\School.Business\School.Business.csproj" />
     <ProjectReference Include="..\School.DataAccess\School.DataAccess.csproj" />
     <ProjectReference Include="..\School.Utility\School.Utility.csproj" />
   </ItemGroup>

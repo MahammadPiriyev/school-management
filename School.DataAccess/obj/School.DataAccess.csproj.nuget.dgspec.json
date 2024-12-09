@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.22, )"
+            },
             "jQuery": {
               "target": "Package",
               "version": "[3.7.1, )"
@@ -184,6 +188,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.22, )"
             },
             "jQuery": {
               "target": "Package",
