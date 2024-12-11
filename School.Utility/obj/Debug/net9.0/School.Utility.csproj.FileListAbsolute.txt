@@ -11,3 +11,5 @@ C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\refint\School.
 C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\School.Utility.pdb
 C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\ref\School.Utility.dll
 C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\School.Utility.sourcelink.json
+C:\Users\ASUS\source\repos\School\School.Utility\bin\Debug\net9.0\School.Utility.runtimeconfig.json
+C:\Users\ASUS\source\repos\School\School.Utility\obj\Debug\net9.0\School.Utility.genruntimeconfig.cache
