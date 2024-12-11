@@ -24,6 +24,7 @@ builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 builder.Services.AddScoped<IClassRepository, ClassRepository>();
 //Add business services
 builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<ITeacherService, TeacherService>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {

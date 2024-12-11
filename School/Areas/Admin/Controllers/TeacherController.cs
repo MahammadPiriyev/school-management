@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using School.Business.Abstract;
 using School.DataAccess.Data;
 using School.DataAccess.Repository;
 using School.DataAccess.Repository.IRepository;
@@ -10,22 +11,20 @@ namespace School.Areas.Admin.Controllers
 	[Area("Admin")]
 	public class TeacherController : Controller
 	{
-		private readonly IUnitOfWork _unitOfWork;
 		private readonly ApplicationDbContext _context;
-		public TeacherController(IUnitOfWork unitOfWork, ApplicationDbContext context)
+		private readonly ITeacherService _teacherService;
+		public TeacherController(ApplicationDbContext context, ITeacherService teacherService)
 		{
-			_unitOfWork = unitOfWork;
 			_context = context;
+			_teacherService = teacherService;
 		}
 		public IActionResult Index()
 		{
-			var teacherList = _unitOfWork.Teachers.GetAll().ToList();
-			return View(teacherList);
+			return View(_teacherService.GetAllTeachers());
 		}
 		public IActionResult Info(int id)
 		{
-			var teacherFromDb = _unitOfWork.Teachers.Get(t => t.Id == id);
-			return View(teacherFromDb);
+			return View(_teacherService.GetTeacherInfo(id));
 		}
 		public IActionResult Add()
 		{
@@ -40,8 +39,7 @@ namespace School.Areas.Admin.Controllers
 		[HttpPost]
 		public IActionResult Add(Teacher teacher)
 		{
-			_unitOfWork.Teachers.Add(teacher);
-			_unitOfWork.Save();
+			_teacherService.Add(teacher);
 			return RedirectToAction(nameof(Index));
 		}
 
@@ -57,19 +55,13 @@ namespace School.Areas.Admin.Controllers
 			{
 				return NotFound();
 			}
-			var teacherFromDb = _unitOfWork.Teachers.Get(t => t.Id == id);
-			if (teacherFromDb == null)
-			{
-				return NotFound();
-			}
-			return View(teacherFromDb);
+			return View(_teacherService.EditTeacher(id));
 		}
 
 		[HttpPost]
 		public IActionResult Edit(Teacher teacher)
 		{
-			_unitOfWork.Teachers.Update(teacher);
-			_unitOfWork.Save();
+			_teacherService.Edit(teacher);
 			return RedirectToAction(nameof(Index));
 		}
 
@@ -81,14 +73,12 @@ namespace School.Areas.Admin.Controllers
 				Value = d.DepartmentId.ToString()
 			});
 			ViewData["DepartmentList"] = DepartmentList;
-			var teacherFromDb = _unitOfWork.Teachers.Get(s => s.Id == id);
-			return View(teacherFromDb);
+			return View(_teacherService.DeleteTeacher(id));
 		}
 		[HttpPost]
 		public IActionResult Delete(Teacher teacher)
 		{
-			_unitOfWork.Teachers.Remove(teacher);
-			_unitOfWork.Save();
+			_teacherService.Delete(teacher);	
 			return RedirectToAction(nameof(Index));
 		}
 
