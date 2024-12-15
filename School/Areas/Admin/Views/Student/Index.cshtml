@@ -49,8 +49,8 @@
                             <td>@student.Email</td>
                             <td>@student.Phone</td>
                             <td>@student.Class.Name</td>
-                            <td><a asp-area="Admin" asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id" class="btn btn-warning">Update</a></td>
-                            <td><a asp-area="Admin" asp-controller="Student" asp-action="Delete" asp-route-id="@student.Id" class="btn btn-danger">Delete</a></td>
+                            <td><a asp-area="Admin" asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a asp-area="Admin" asp-controller="Student" asp-action="Delete" asp-route-id="@student.Id" class="btn btn-danger"><i class="fa-solid fa-trash" style="color: #ffffff;"></i></a></td>
                         </tr>                        
                     }
                 <tbody>

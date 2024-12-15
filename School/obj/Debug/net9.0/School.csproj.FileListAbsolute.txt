@@ -427,7 +427,6 @@ C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\dac3rf0va1-
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\anb3b8ejji-uoovsccu11.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\l03g9e9wbj-3ydlekyopw.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\rectwca3cg-xtxxf3hu2r.gz
-C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\kupfn7pkno-7xa2so4cto.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\69vk8ruw8b-57ni4c40tc.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\ktd2ve4v3t-cy3uvi8gqg.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\School.sourcelink.json
@@ -442,3 +441,4 @@ C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\Pipelines.Sockets.Unof
 C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\StackExchange.Redis.dll
 C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\School.Business.dll
 C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\School.Business.pdb
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\kupfn7pkno-7uhydywsxn.gz

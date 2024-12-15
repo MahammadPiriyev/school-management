@@ -13,7 +13,7 @@
 
     <div class="container">
         <div class="stat-row">
-            <div class="card">
+            <div class="card bg-success">
                 <div class="icon">
                     <img src="https://cdn-icons-png.flaticon.com/512/194/194931.png" alt="Students Icon">
                 </div>
@@ -22,7 +22,7 @@
                     <div class="value">@Model.StudentsCount</div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card bg-warning">
                 <div class="icon">
                     <img src="images/teacher.png" alt="Students Icon">
                 </div>
@@ -31,6 +31,46 @@
                     <div class="value">@Model.TeachersCount</div>
                 </div>
             </div>
+            <div class="card bg-danger">
+                <div class="icon">
+                    <img src="images/teacher.png" alt="Students Icon">
+                </div>
+                <div class="content">
+                    <div class="title">Parents</div>
+                    <div class="value">@Model.TeachersCount</div>
+                </div>
+            </div>
+        </div>
+        <div class="line-container">
+            <div class="line"></div>
+            <div class="text">Quick Access <i class="fa-solid fa-lightbulb" style="color: #FFD43B;"></i></div>
+            <div class="line"></div>
+        </div>
+        <div class="card-container">
+            <a class="card" asp-area="Admin" asp-controller="Student" asp-action="Index">
+                <i class="fas fa-user-graduate"></i>
+                <p>Students</p>
+            </a>
+            <a class="card" asp-area="Admin" asp-controller="Teacher" asp-action="Index">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <p>Teachers</p>
+            </a>
+            <a class="card" asp-area="Admin" asp-controller="Parent" asp-action="Index">
+                <i class="fas fa-user"></i>
+                <p>Parents</p>
+            </a>
+            <a class="card" asp-area="Admin" asp-controller="Subject" asp-action="Index">
+                <i class="fas fa-book"></i>
+                <p>Subjects</p>
+            </a>
+            <a class="card" asp-area="Admin" asp-controller="Class" asp-action="Index">
+                <i class="fas fa-users"></i>
+                <p>Class</p>
+            </a>
+            <a class="card" asp-area="Admin" asp-controller="Attendance" asp-action="Index">
+                <i class="fas fa-calendar-check"></i>
+                <p>Attendance (Soon)</p>
+            </a>
         </div>
     </div>
 

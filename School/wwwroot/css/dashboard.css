@@ -6,6 +6,8 @@ body {
     display: flex;
     gap: 15px;
     margin-top: 30px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .search-bar {
@@ -31,11 +33,10 @@ nav {
     border: none;
 }
 
-.card {
+.stat-row .card {
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -65,7 +66,7 @@ nav {
 
 .content .title {
     font-size: 14px;
-    color: #888;
+    color: #fff;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
@@ -73,6 +74,64 @@ nav {
 .content .value {
     font-size: 24px;
     font-weight: bold;
-    color: #000;
+    color: #fff;
 }
 
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Individual Cards */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .card i {
+        font-size: 30px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.text {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    colo

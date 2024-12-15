@@ -39,10 +39,12 @@
                 </thead>
                 <tbody>
                     @if (Model.Students.Any()){
+                        int count = 0;
                         @foreach (var student in Model.Students)
                         {
+                            count += 1;
                             <tr onclick="window.location='@Url.Action("Info", "Student", new { id = student.Id, area = "Admin" })'" style="cursor: pointer;">
-                                <td>@student.Id</td>
+                                <td>@count</td>
                                 <td>@student.FirstName</td>
                                 <td>@student.LastName</td>
                             </tr>
