@@ -15,19 +15,9 @@
 <body>
     <div class="main">
         <div class="container">
-            <h2>Teacher List</h2>
+            <h2>@Model.DepartmentName</h2>
             <div class="table-actions">
-                <input type="text" placeholder="Search by name..." />
-                <div class="custom-select">
-                    <select>
-                        <option value="">Select an option</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                        <option value="4">Option 4</option>
-                    </select>
-                </div>
-                <a class="btn btn-success">Search</a>
+                <input type="text" id="search-bar" placeholder="Search by name..." />
             </div>
             <table class="table">
                 <thead>
@@ -53,6 +43,7 @@
             </table>
         </div>
     </div>
+    <script src="~/js/searchbar.js"></script>
 
 </body>
 </html>

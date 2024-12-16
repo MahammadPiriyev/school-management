@@ -9,13 +9,19 @@
 }
 
 .table {
-    border: 1px solid gray;
+    border: none;
     margin-top: 30px;
 }
+#search-bar {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    outline: none;
+}
 
-    .table thead tr th {
-        color: #1c2431;
-    }
+.table thead tr th {
+    color: #1c2431;
+}
 
 .table-actions {
     display: flex;
@@ -24,17 +30,17 @@
     gap: 30px;
 }
 
-    .table-actions input {
-        width: 500px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-    }
+.table-actions input {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
 
-    .table-actions a {
-        width: 300px;
-        padding: 10px;
-    }
+.table-actions a {
+    width: 300px;
+    padding: 10px;
+}
 
 .custom-select {
     position: relative;

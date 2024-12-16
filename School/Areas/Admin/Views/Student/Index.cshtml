@@ -14,20 +14,9 @@
 <body>
     <div class="main">
         <div class="container">
-            <h2>Student List</h2>
             <form method="get" action="/Admin/Student/Index">
                 <div class="table-actions">
-                    <input type="text" placeholder="Search by name..." value="@ViewData["SearchName"]" />
-                    <div class="custom-select">
-                        <select>
-                            <option value="">Select an option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="4">Option 4</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-success">Search</button>
+                    <input type="text" id="search-bar" placeholder="Search by name..."/>
                 </div>
             </form>
             <table class="table">
@@ -57,7 +46,9 @@
             </table>
         </div>
     </div>
-   
+    <script src="~/js/searchbar.js"></script>
+
+
 </body>
 </html>
 

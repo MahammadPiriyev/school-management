@@ -3,6 +3,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\ASUS\source\repos\School\School\wwwroot\js\searchbar.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\css\teacheradd.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
@@ -87,6 +88,7 @@ wwwroot\favicon.ico
 wwwroot\images\3135715.png
 wwwroot\images\Admin+Panel.png
 wwwroot\images\teacher.png
+wwwroot\js\searchbar.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

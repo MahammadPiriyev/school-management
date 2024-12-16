@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\images\\teacher.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
+      "PackagePath": "staticwebassets\\js\\searchbar.js"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

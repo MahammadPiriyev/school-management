@@ -12,19 +12,8 @@
 <body>
     <div class="main">
         <div class="container">
-            <h2>Teacher List</h2>
             <div class="table-actions">
-                <input type="text" placeholder="Search by name..." />
-                <div class="custom-select">
-                    <select>
-                        <option value="">Select an option</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                        <option value="4">Option 4</option>
-                    </select>
-                </div>
-                <a class="btn btn-success">Search</a>
+                <input type="text" id="search-bar" placeholder="Search by name..." />
             </div>
             <table class="table">
                 <thead>
@@ -49,15 +38,15 @@
                             <td>@teacher.Address</td>
                             <td>@teacher.Department.Name</td>
                             <td>@teacher.CreatedDate</td>
-                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Edit" asp-route-id="@teacher.Id" class="btn btn-outline-warning">Update</a></td>
-                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Delete" asp-route-id="@teacher.Id" class="btn btn-outline-danger">Delete</a></td>
+                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Edit" asp-route-id="@teacher.Id" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a asp-area="Admin" asp-controller="Teacher" asp-action="Delete" asp-route-id="@teacher.Id" class="btn btn-danger"><i class="fa-solid fa-trash" style="color: #ffffff;"></i></a></td>
                         </tr>
                     }
-
                 <tbody>
             </table>
         </div>
     </div>
+    <script src="~/js/searchbar.js"></script>
 
 </body>
 </html>
