@@ -14,6 +14,7 @@ namespace School.DataAccess.Repository
 		private readonly ApplicationDbContext _context;
 		public IStudentRepository Students {  get; private set; }
 		public ITeacherRepository Teachers { get; private set; }
+		public IParentRepository Parents { get; private set; }
 		public IClassRepository Classes { get; private set; }
 		public IDepartmentRepository Departments { get; private set; }
 
@@ -23,6 +24,7 @@ namespace School.DataAccess.Repository
 			_context = context;
 			Students = new StudentRepository(_context);
 			Teachers = new TeacherRepository(_context);
+			Parents = new ParentRepository(_context);
 			Classes = new ClassRepository(_context);
 			Departments = new DepartmentRepository(_context);
 		}

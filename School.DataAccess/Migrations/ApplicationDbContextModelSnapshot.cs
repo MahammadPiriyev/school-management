@@ -310,6 +310,18 @@ namespace School.DataAccess.Migrations
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
 
+            modelBuilder.Entity("School.Entities.Parent", b =>
+                {
+                    b.HasBaseType("School.Entities.Abstract.IBaseEntity");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("Parents");
+                });
+
             modelBuilder.Entity("School.Entities.Student", b =>
                 {
                     b.HasBaseType("School.Entities.Abstract.IBaseEntity");
@@ -335,6 +347,17 @@ namespace School.DataAccess.Migrations
                     b.HasIndex("DepartmentId");
 
                     b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("School.Entities.Parent", b =>
+                {
+                    b.HasOne("School.Entities.Student", "Student")
+                        .WithMany("Parents")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("School.Entities.Student", b =>
@@ -367,6 +390,11 @@ namespace School.DataAccess.Migrations
             modelBuilder.Entity("School.Entities.Department", b =>
                 {
                     b.Navigation("Teachers");
+                });
+
+            modelBuilder.Entity("School.Entities.Student", b =>
+                {
+                    b.Navigation("Parents");
                 });
 #pragma warning restore 612, 618
         }

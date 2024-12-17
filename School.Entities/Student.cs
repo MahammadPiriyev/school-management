@@ -13,6 +13,7 @@ namespace School.Entities
 		public int ClassId { get; set; }
 		[ValidateNever]
 		public virtual Class Class { get; set; }
+		public virtual ICollection<Parent> Parents { get; set; }	
 		public int GPA { get; set; }
 	}
 }

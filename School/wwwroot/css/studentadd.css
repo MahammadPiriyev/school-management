@@ -42,15 +42,16 @@ label {
 input, select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
     font-size: 14px;
     box-sizing: border-box;
+    outline: none;
 }
 
-    input[type="file"] {
-        padding: 0;
-    }
+input[type="file"] {
+    padding: 0;
+}
 
 /* Photo Upload */
 .photo-upload {

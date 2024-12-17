@@ -19,6 +19,7 @@ namespace School.DataAccess.Data
 		}
 		public DbSet<Student> Students { get; set; }
 		public DbSet<Teacher> Teachers { get; set; }
+		public DbSet<Parent> Parents { get; set; }
 		public DbSet<Class> Classes { get; set; }
 		public DbSet<Department> Departments { get; set; }
 		public DbSet<ApplicationUser> applicationUser { get; set; }
@@ -38,10 +39,15 @@ namespace School.DataAccess.Data
 				.HasOne(s => s.Class)
 				.WithMany(c => c.Students)
 				.HasForeignKey(s => s.ClassId);
+
 			modelBuilder.Entity<Teacher>()
 				.HasOne(t => t.Department)
 				.WithMany(d => d.Teachers)
 				.HasForeignKey(t => t.DepartmentId);
+			modelBuilder.Entity<Parent>()
+				.HasOne(p => p.Student)
+				.WithMany(s => s.Parents)
+				.HasForeignKey(p => p.StudentId);
 		}
 	}
 

@@ -18,11 +18,13 @@ namespace School.Areas.Admin.Controllers
 		{
 			var teachersCount = _unitOfWork.Teachers.Count();
 			var studentsCount = _unitOfWork.Students.Count();
+			var parentsCount = _unitOfWork.Parents.Count();
 
 			var dashboardViewModel = new DashboardViewModel
 			{
 				TeachersCount = teachersCount,
 				StudentsCount = studentsCount,
+				ParentsCount = parentsCount,
 			};
 			return View(dashboardViewModel);
 		}
