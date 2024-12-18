@@ -37,7 +37,7 @@
                 </div>
                 <div class="content">
                     <div class="title">Parents</div>
-                    <div class="value">@Model.ParentsCount</div>
+                    <div class="value">55</div>
                 </div>
             </div>
         </div>
@@ -54,11 +54,7 @@
             <a class="card" asp-area="Admin" asp-controller="Teacher" asp-action="Index">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <p>Teachers</p>
-            </a>
-            <a class="card" asp-area="Admin" asp-controller="Parent" asp-action="Index">
-                <i class="fas fa-user"></i>
-                <p>Parents</p>
-            </a>
+            </a>         
             <a class="card" asp-area="Admin" asp-controller="Subject" asp-action="Index">
                 <i class="fas fa-book"></i>
                 <p>Subjects</p>
@@ -67,7 +63,11 @@
                 <i class="fas fa-users"></i>
                 <p>Class</p>
             </a>
-            <a class="card" asp-area="Admin" asp-controller="Attendance" asp-action="Index">
+            <a class="card" @* asp-area="Admin" asp-controller="Parent" asp-action="Index" *@>
+                <i class="fas fa-user"></i>
+                <p>Parents (Soon)</p>
+            </a>
+            <a class="card" @* asp-area="Admin" asp-controller="Attendance" asp-action="Index" *@>
                 <i class="fas fa-calendar-check"></i>
                 <p>Attendance (Soon)</p>
             </a>

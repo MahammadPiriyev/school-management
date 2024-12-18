@@ -21,12 +21,10 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
-builder.Services.AddScoped<IParentRepository, ParentRepository>();
 builder.Services.AddScoped<IClassRepository, ClassRepository>();
 //Add business services
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<ITeacherService, TeacherService>();
-builder.Services.AddScoped<IParentService, ParentService>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {

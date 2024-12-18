@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b7sx73m76h</Fingerprint>
-      <Integrity>B4CERc44hpRGLj1N7c+EV8orw+r5Pxf9+LeMiXNr9Eo=</Integrity>
+      <Fingerprint>3epad5jjx9</Fingerprint>
+      <Integrity>C/ALviUz/081tBF1zSyqSvxJiAimazXkhc46RTEz8/Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\studentadd.css'))</OriginalItemSpec>

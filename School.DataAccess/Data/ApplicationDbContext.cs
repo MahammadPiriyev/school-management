@@ -3,11 +3,6 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using School.Entities;
 using School.Entities.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.DataAccess.Data
 {
@@ -15,11 +10,10 @@ namespace School.DataAccess.Data
 	{
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 		{
-			
+
 		}
 		public DbSet<Student> Students { get; set; }
 		public DbSet<Teacher> Teachers { get; set; }
-		public DbSet<Parent> Parents { get; set; }
 		public DbSet<Class> Classes { get; set; }
 		public DbSet<Department> Departments { get; set; }
 		public DbSet<ApplicationUser> applicationUser { get; set; }
@@ -44,10 +38,6 @@ namespace School.DataAccess.Data
 				.HasOne(t => t.Department)
 				.WithMany(d => d.Teachers)
 				.HasForeignKey(t => t.DepartmentId);
-			modelBuilder.Entity<Parent>()
-				.HasOne(p => p.Student)
-				.WithMany(s => s.Parents)
-				.HasForeignKey(p => p.StudentId);
 		}
 	}
 

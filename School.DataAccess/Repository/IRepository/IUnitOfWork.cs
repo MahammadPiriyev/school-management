@@ -10,7 +10,6 @@ namespace School.DataAccess.Repository.IRepository
 	{
 		IStudentRepository Students { get; }
 		ITeacherRepository Teachers { get; }
-		IParentRepository Parents { get; }
 		IClassRepository Classes { get; }
 		IDepartmentRepository Departments { get; }
 		void Save();
