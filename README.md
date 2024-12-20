@@ -100,10 +100,11 @@ SchoolManagementSystem
 
 ## Screenshots
 
-![Home Page](School/wwwroot/assets/ss4.png)
+![Home Page](School/wwwroot/assets/ss0.png)
 ![Home Page](School/wwwroot/assets/ss1.png)
-![Home Page](School/wwwroot/assets/ss3.png)
 ![Home Page](School/wwwroot/assets/ss2.png)
+![Home Page](School/wwwroot/assets/ss3.png)
+![Home Page](School/wwwroot/assets/ss4.png)
 
 
 ## License
