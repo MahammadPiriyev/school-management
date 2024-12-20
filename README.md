@@ -4,7 +4,7 @@ A web-based School Management System built using **ASP.NET Core MVC**. This appl
 
 ## Features
 
-- 🛡️ **Authentication and Authorization**: Role-based access for Admins, Teachers, and Students.
+- 🛡️ **Authentication and Authorization**: Role-based access for Admin.
 - 👨‍🎓 **Student Management**: Add, update, view, and delete student records.
 - 👩‍🏫 **Teacher Management**: Manage teacher profiles and assignments.
 - 📚 **Course Management**: Create and manage courses and their schedules.
@@ -100,7 +100,10 @@ SchoolManagementSystem
 
 ## Screenshots
 
-*📸 Add screenshots of your application here.*
+![Home Page](School/wwwroot/assets/ss1.png)
+![Home Page](School/wwwroot/assets/ss3.png)
+![Home Page](School/wwwroot/assets/ss2.png)
+
 
 ## License
 
