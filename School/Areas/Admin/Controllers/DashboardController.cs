@@ -7,7 +7,6 @@ using School.Entities.ViewModel;
 namespace School.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	[Authorize]
 	public class DashboardController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;

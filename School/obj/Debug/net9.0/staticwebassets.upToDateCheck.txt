@@ -75,6 +75,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\addi
 wwwroot\assets\ss1.png
 wwwroot\assets\ss2.png
 wwwroot\assets\ss3.png
+wwwroot\assets\ss4.png
 wwwroot\css\class.css
 wwwroot\css\classadd.css
 wwwroot\css\dashboard.css

@@ -13,7 +13,6 @@ using Microsoft.AspNetCore.Authorization;
 namespace School.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	[Authorize]
 	public class StudentController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WQV2dbnesF8cTch99MHaMsFALcfCDoQPCn8R43kKrZI=",
+  "Hash": "Sva0sLh2z+NNm37Q14QNvqc+mImdpDwwSf8ZGrX9a9k=",
   "Source": "School",
   "BasePath": "_content/School",
   "Mode": "Default",
@@ -4343,6 +4343,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\ss3.png"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\assets\\ss4.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "assets/ss4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "890tml3e9z",
+      "Integrity": "jKABiFwAHWhIIdFG02hnKv9W0Bq87N3wxdKiUNUKw24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\ss4.png"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\class.css",
       "SourceId": "School",
       "SourceType": "Discovered",
@@ -6372,6 +6393,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-u/HSOhwQfppXqoMLXOA9sz1mRXXZ01O+pwy5S3IcXNs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss4.890tml3e9z.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\assets\\ss4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKABiFwAHWhIIdFG02hnKv9W0Bq87N3wxdKiUNUKw24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:16:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "890tml3e9z"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ss4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKABiFwAHWhIIdFG02hnKv9W0Bq87N3wxdKiUNUKw24="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss4.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\assets\\ss4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKABiFwAHWhIIdFG02hnKv9W0Bq87N3wxdKiUNUKw24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:16:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKABiFwAHWhIIdFG02hnKv9W0Bq87N3wxdKiUNUKw24="
         }
       ]
     },
