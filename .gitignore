@@ -1,1 +1,8 @@
-*.vs
+.env
+.env.example
+appsettings.json
+.vs/
+bin/
+obj/
+logs/
+*.log
