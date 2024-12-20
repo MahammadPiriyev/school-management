@@ -291,21 +291,21 @@ namespace School.DataAccess.Migrations
                     b.ToTable("Departments");
                 });
 
-            modelBuilder.Entity("School.Entities.parent", b =>
+            modelBuilder.Entity("School.Entities.Subject", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("SubjectId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubjectId"));
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("SubjectId");
 
-                    b.ToTable("parents");
+                    b.ToTable("Subjects");
                 });
 
             modelBuilder.Entity("School.Entities.ApplicationUser", b =>
@@ -349,7 +349,12 @@ namespace School.DataAccess.Migrations
                     b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
+                    b.Property<int>("SubjectId")
+                        .HasColumnType("int");
+
                     b.HasIndex("DepartmentId");
+
+                    b.HasIndex("SubjectId");
 
                     b.ToTable("Teachers");
                 });
@@ -373,7 +378,15 @@ namespace School.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("School.Entities.Subject", "Subject")
+                        .WithMany("Teachers")
+                        .HasForeignKey("SubjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Department");
+
+                    b.Navigation("Subject");
                 });
 
             modelBuilder.Entity("School.Entities.Class", b =>
@@ -382,6 +395,11 @@ namespace School.DataAccess.Migrations
                 });
 
             modelBuilder.Entity("School.Entities.Department", b =>
+                {
+                    b.Navigation("Teachers");
+                });
+
+            modelBuilder.Entity("School.Entities.Subject", b =>
                 {
                     b.Navigation("Teachers");
                 });

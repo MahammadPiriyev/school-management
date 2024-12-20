@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using School.DataAccess.Data;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
 using School.Entities.ViewModels;
@@ -10,9 +12,11 @@ namespace School.Areas.Admin.Controllers
 	public class DepartmentController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;
-		public DepartmentController(IUnitOfWork unitOfWork)
+		private readonly ApplicationDbContext _context;
+		public DepartmentController(IUnitOfWork unitOfWork, ApplicationDbContext context)
 		{
 			_unitOfWork = unitOfWork;
+			_context = context;
 		}
 		public IActionResult Index()
 		{

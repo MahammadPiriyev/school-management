@@ -14,5 +14,6 @@ namespace School.Entities
 		[ValidateNever]
 		public virtual Class Class { get; set; }
 		public int GPA { get; set; }
+
 	}
 }

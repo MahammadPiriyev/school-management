@@ -35,6 +35,12 @@ namespace School.Areas.Admin.Controllers
 				Text = d.Name,
 				Value = d.DepartmentId.ToString()
 			});
+			IEnumerable<SelectListItem> SubjectList = _context.Subjects.Select(u => new SelectListItem
+			{
+				Text = u.Name,
+				Value = u.SubjectId.ToString()
+			});
+			ViewData["SubjectList"] = SubjectList;
 			ViewData["DepartmentList"] = DepartmentList;
 			return View();
 		}

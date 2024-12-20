@@ -1,0 +1,46 @@
+﻿@using School.Entities
+@model List<Subject>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/class.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="table-actions">
+                <input type="text" id="search-bar" placeholder="Search by name..." />
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Subject Name</th>
+                        <th>Teacher Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var obj in Model)
+                    {
+                        <tr>
+                            <td>@obj.SubjectId</td>
+                            <td>@obj.Name</td>
+                            <td><a asp-area="Admin" asp-controller="Subject" asp-action="Edit" asp-route-id="@obj.SubjectId" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                            <td><a asp-area="Admin" asp-controller="Subject" asp-action="Delete" asp-route-id="@obj.SubjectId" class="btn btn-danger"><i class="fa-solid fa-trash" style="color: #ffffff;"></i></a></td>
+                        </tr>
+                    }
+                <tbody>
+            </table>
+        </div>
+    </div>
+    <script src="~/js/searchbar.js"></script>
+
+</body>
+</html>
+
+
