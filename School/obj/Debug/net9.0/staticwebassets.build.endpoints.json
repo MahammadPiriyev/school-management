@@ -8832,6 +8832,252 @@
       ]
     },
     {
+      "Route": "assets/ss1.oafh6c7c2i.png",
+      "AssetFile": "assets/ss1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ULL7W1t1c1rCGZ64gQzqsbudst5Gha6MUrmPzGjD+pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:06:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oafh6c7c2i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ULL7W1t1c1rCGZ64gQzqsbudst5Gha6MUrmPzGjD+pw="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ss1.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss1.png",
+      "AssetFile": "assets/ss1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ULL7W1t1c1rCGZ64gQzqsbudst5Gha6MUrmPzGjD+pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:06:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ULL7W1t1c1rCGZ64gQzqsbudst5Gha6MUrmPzGjD+pw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss2.a5wnq6xfss.png",
+      "AssetFile": "assets/ss2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvvh7azi2nrP2dvKI6m3eptF3rZFmFDVpm62qSYNg4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:06:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a5wnq6xfss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvvh7azi2nrP2dvKI6m3eptF3rZFmFDVpm62qSYNg4Q="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ss2.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss2.png",
+      "AssetFile": "assets/ss2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvvh7azi2nrP2dvKI6m3eptF3rZFmFDVpm62qSYNg4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:06:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvvh7azi2nrP2dvKI6m3eptF3rZFmFDVpm62qSYNg4Q="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss3.fbi8b27d3q.png",
+      "AssetFile": "assets/ss3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/HSOhwQfppXqoMLXOA9sz1mRXXZ01O+pwy5S3IcXNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:06:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fbi8b27d3q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/HSOhwQfppXqoMLXOA9sz1mRXXZ01O+pwy5S3IcXNs="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ss3.png"
+        }
+      ]
+    },
+    {
+      "Route": "assets/ss3.png",
+      "AssetFile": "assets/ss3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/HSOhwQfppXqoMLXOA9sz1mRXXZ01O+pwy5S3IcXNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 18:06:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/HSOhwQfppXqoMLXOA9sz1mRXXZ01O+pwy5S3IcXNs="
+        }
+      ]
+    },
+    {
       "Route": "css/class.4wlmf9nu0n.css",
       "AssetFile": "css/class.css.gz",
       "Selectors": [

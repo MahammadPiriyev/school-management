@@ -21,7 +21,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #f8f9fa;
+            background-color: #1c2431;
         }
 
         .card {
@@ -33,7 +33,7 @@
 <body>
     <div class="card shadow">
         <div class="card-body">
-            <h3 class="text-center">@ViewData["Title"]</h3>
+            <h3 class="text-center"><img src="~/images/Admin+Panel.png" style="height: 150px; width: 250px;"/></h3>
             <form id="loginForm" method="post" asp-route-returnUrl="@Model.ReturnUrl">
                 <!-- Validation Summary -->
                 <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>

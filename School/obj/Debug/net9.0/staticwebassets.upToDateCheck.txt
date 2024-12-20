@@ -72,6 +72,9 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap
 C:\Users\ASUS\source\repos\School\School\wwwroot\favicon.ico
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\assets\ss1.png
+wwwroot\assets\ss2.png
+wwwroot\assets\ss3.png
 wwwroot\css\class.css
 wwwroot\css\classadd.css
 wwwroot\css\dashboard.css
