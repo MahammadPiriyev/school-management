@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
     <PackageReference Include="jQuery" Version="3.7.1" />
     <PackageReference Include="jQuery.Validation" Version="1.21.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
@@ -34,6 +36,10 @@
     <ProjectReference Include="..\School.Business\School.Business.csproj" />
     <ProjectReference Include="..\School.DataAccess\School.DataAccess.csproj" />
     <ProjectReference Include="..\School.Utility\School.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\student\" />
   </ItemGroup>
 
 </Project>

@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <h2>Add New Students</h2>
-        <form method="post" class="student-form">
+        <form method="post" enctype="multipart/form-data" class="student-form">
             <input asp-for="ImageUrl" hidden />
             <div class="form-section">
                 <!-- Student Details -->
@@ -66,7 +66,7 @@
             <!-- Upload Photo -->
             <div class="form-group photo-upload">
                 <label for="photo">Upload Student Photo (150px x 150px)</label>
-                <input asp-for="ImageUrl" type="file" id="photo" />
+                <input asp-for="ImageUrl" type="file" name="file" id="photo" />
             </div>
             <!-- Buttons -->
             <div class="form-buttons">

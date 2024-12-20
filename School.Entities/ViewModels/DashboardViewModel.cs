@@ -10,5 +10,6 @@ namespace School.Entities.ViewModel
 	{
 		public int TeachersCount { get; set; }
 		public int StudentsCount { get; set; }
+		public int ClassCount { get; set; }
 	}
 }

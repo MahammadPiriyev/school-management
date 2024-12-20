@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <h2>Add New Student</h2>
-        <form method="post" class="student-form">
+        <form method="post" enctype="multipart/form-data" class="student-form">
             <div class="form-section">
                 <!-- Student Details -->
                 <div class="form-group">
@@ -30,12 +30,6 @@
                 <div class="form-group">
                     <label for="name">Phone *</label>
                     <input asp-for="Phone" id="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="class">Class *</label>
-                    <select asp-for="ClassId" asp-items="@ViewData["ClassList"] as IEnumerable<SelectListItem>" id="class" required>
-                        <option value="" disabled selected>Please Select Class</option>
-                    </select>
                 </div>
                 <div class="form-group">
                     <label for="name">GPA *</label>
@@ -71,7 +65,7 @@
             <!-- Upload Photo -->
             <div class="form-group photo-upload">
                 <label for="photo">Upload Student Photo (150px x 150px)</label>
-                <input asp-for="ImageUrl" type="file" id="photo" />
+                <input asp-for="ImageUrl" type="file" name="file" id="photo" />
             </div>
             <!-- Buttons -->
             <div class="form-buttons">

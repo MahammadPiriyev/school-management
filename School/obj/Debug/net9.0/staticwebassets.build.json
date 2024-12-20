@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RaQ9NNFAT9YKbDlIOYYFyB60+RYSVb+uBEc12BKfJRQ=",
+  "Hash": "ZWhz18g+lgTj+Jne/QFhvistZqvnhIIqLDi4DkW1IhE=",
   "Source": "School",
   "BasePath": "_content/School",
   "Mode": "Default",
@@ -4595,6 +4595,90 @@
       "OriginalItemSpec": "wwwroot\\images\\Admin+Panel.png"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/student/0bda5544-0ff9-436a-87bc-a54e862ab7fe#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czy2c12m0g",
+      "Integrity": "mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/student/49e18307-f3bf-4f82-8575-ec1cb34c37d8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6iy8frxyob",
+      "Integrity": "rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\student\\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/student/69187df6-6bfe-4e9b-9430-9b030e9de89f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6iy8frxyob",
+      "Integrity": "rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/student/8bd20fd0-4198-49b7-b970-5959b31743ca#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "71w10716zm",
+      "Integrity": "a2R7W0BovzEVb1V8tX5XcO1aR1QAqavXSQFAPhZuoAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher.png",
       "SourceId": "School",
       "SourceType": "Discovered",
@@ -4614,6 +4698,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\teacher.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/teacher/1d0490c2-e946-43fe-a1cb-6f4aa058b8d4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wa7an0xr19",
+      "Integrity": "eIr7jilNA8gLkH3+jzZKJpU/J+O+j/d7s1by9Mh5SY8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/teacher/407befaa-37ae-42d3-a4cd-5a6e89e4e3f6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czy2c12m0g",
+      "Integrity": "mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teacher\\407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\810757ea-7f3a-4556-895c-29fbfe4397a8.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/teacher/810757ea-7f3a-4556-895c-29fbfe4397a8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6iy8frxyob",
+      "Integrity": "rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teacher\\810757ea-7f3a-4556-895c-29fbfe4397a8.png"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
@@ -18563,6 +18710,334 @@
       ]
     },
     {
+      "Route": "images/student/0bda5544-0ff9-436a-87bc-a54e862ab7fe.czy2c12m0g.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 19:23:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czy2c12m0g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/student/0bda5544-0ff9-436a-87bc-a54e862ab7fe.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/0bda5544-0ff9-436a-87bc-a54e862ab7fe.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 19:23:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/49e18307-f3bf-4f82-8575-ec1cb34c37d8.6iy8frxyob.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:14:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6iy8frxyob"
+        },
+        {
+          "Name": "label",
+          "Value": "images/student/49e18307-f3bf-4f82-8575-ec1cb34c37d8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/49e18307-f3bf-4f82-8575-ec1cb34c37d8.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:14:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/69187df6-6bfe-4e9b-9430-9b030e9de89f.6iy8frxyob.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:31:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6iy8frxyob"
+        },
+        {
+          "Name": "label",
+          "Value": "images/student/69187df6-6bfe-4e9b-9430-9b030e9de89f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/69187df6-6bfe-4e9b-9430-9b030e9de89f.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:31:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/8bd20fd0-4198-49b7-b970-5959b31743ca.71w10716zm.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2R7W0BovzEVb1V8tX5XcO1aR1QAqavXSQFAPhZuoAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:15:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "71w10716zm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/student/8bd20fd0-4198-49b7-b970-5959b31743ca.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2R7W0BovzEVb1V8tX5XcO1aR1QAqavXSQFAPhZuoAQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/8bd20fd0-4198-49b7-b970-5959b31743ca.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2R7W0BovzEVb1V8tX5XcO1aR1QAqavXSQFAPhZuoAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:15:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2R7W0BovzEVb1V8tX5XcO1aR1QAqavXSQFAPhZuoAQ="
+        }
+      ]
+    },
+    {
       "Route": "images/teacher.k5i09fvqsv.png",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher.png",
       "Selectors": [],
@@ -18641,6 +19116,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-GO/buovArd78+o7KUq7tGvobo4V0u4C5j6okDzcd3Xc="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eIr7jilNA8gLkH3+jzZKJpU/J+O+j/d7s1by9Mh5SY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:25:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eIr7jilNA8gLkH3+jzZKJpU/J+O+j/d7s1by9Mh5SY8="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.wa7an0xr19.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eIr7jilNA8gLkH3+jzZKJpU/J+O+j/d7s1by9Mh5SY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:25:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa7an0xr19"
+        },
+        {
+          "Name": "label",
+          "Value": "images/teacher/1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eIr7jilNA8gLkH3+jzZKJpU/J+O+j/d7s1by9Mh5SY8="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.czy2c12m0g.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:25:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czy2c12m0g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/teacher/407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:25:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/810757ea-7f3a-4556-895c-29fbfe4397a8.6iy8frxyob.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\810757ea-7f3a-4556-895c-29fbfe4397a8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6iy8frxyob"
+        },
+        {
+          "Name": "label",
+          "Value": "images/teacher/810757ea-7f3a-4556-895c-29fbfe4397a8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/810757ea-7f3a-4556-895c-29fbfe4397a8.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\810757ea-7f3a-4556-895c-29fbfe4397a8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 17:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rqv/2cGW5bJoFgshCC0zqYoHzO/+z7L1usx/o46erGw="
         }
       ]
     },

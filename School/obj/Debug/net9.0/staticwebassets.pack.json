@@ -65,8 +65,36 @@
       "PackagePath": "staticwebassets\\images\\Admin+Panel.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png",
+      "PackagePath": "staticwebassets\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png",
+      "PackagePath": "staticwebassets\\images\\student\\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png",
+      "PackagePath": "staticwebassets\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png",
+      "PackagePath": "staticwebassets\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher.png",
       "PackagePath": "staticwebassets\\images\\teacher.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png",
+      "PackagePath": "staticwebassets\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png",
+      "PackagePath": "staticwebassets\\images\\teacher\\407befaa-37ae-42d3-a4cd-5a6e89e4e3f6.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\810757ea-7f3a-4556-895c-29fbfe4397a8.png",
+      "PackagePath": "staticwebassets\\images\\teacher\\810757ea-7f3a-4556-895c-29fbfe4397a8.png"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
