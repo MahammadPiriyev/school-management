@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using School.DataAccess.Data;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
@@ -6,6 +7,7 @@ using School.Entities;
 namespace School.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize]
 	public class SubjectController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;

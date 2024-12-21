@@ -21,7 +21,7 @@
                     <tr>
                         <th>Id</th>
                         <th>Subject Name</th>
-                        <th>Teacher Name</th>
+                        <th>Lesson Hours</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -30,6 +30,7 @@
                         <tr>
                             <td>@obj.SubjectId</td>
                             <td>@obj.Name</td>
+                            <td>@obj.LessonHours</td>
                             <td><a asp-area="Admin" asp-controller="Subject" asp-action="Edit" asp-route-id="@obj.SubjectId" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><a asp-area="Admin" asp-controller="Subject" asp-action="Delete" asp-route-id="@obj.SubjectId" class="btn btn-danger"><i class="fa-solid fa-trash" style="color: #ffffff;"></i></a></td>
                         </tr>

@@ -10,6 +10,7 @@ namespace School.Entities
 	{
 		public int SubjectId { get; set; }
 		public string Name { get; set; }
+		public int LessonHours { get; set; }
 		public virtual ICollection<Teacher> Teachers { get; set; }
 	}
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
 using School.Entities.ViewModels;
@@ -6,6 +7,7 @@ using School.Entities.ViewModels;
 namespace School.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize]
 	public class ClassController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;

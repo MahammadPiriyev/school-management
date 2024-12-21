@@ -13,11 +13,16 @@
     <div class="container">
         <h2>Delete Subject</h2>
         <form method="post" class="student-form">
+            <input asp-for="SubjectId" hidden />
             <div class="form-section">
                 <!-- Student Details -->
                 <div class="form-group">
                     <label for="name">Subject Name *</label>
                     <input disabled asp-for="Name" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Lesson Hours *</label>
+                    <input disabled asp-for="LessonHours" id="name" required>
                 </div>
             </div>
             <!-- Buttons -->

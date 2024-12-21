@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using School.Business.Abstract;
 using School.DataAccess.Data;
@@ -9,6 +10,7 @@ using School.Entities;
 namespace School.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize]
 	public class TeacherController : Controller
 	{
 		private readonly ApplicationDbContext _context;
@@ -83,6 +85,12 @@ namespace School.Areas.Admin.Controllers
 				Text = d.Name,
 				Value = d.DepartmentId.ToString()
 			});
+			IEnumerable<SelectListItem> SubjectList = _context.Subjects.Select(u => new SelectListItem
+			{
+				Text = u.Name,
+				Value = u.SubjectId.ToString()
+			});
+			ViewData["SubjectList"] = SubjectList;
 			ViewData["DepartmentList"] = DepartmentList;
 			if (id == 0)
 			{
@@ -138,6 +146,12 @@ namespace School.Areas.Admin.Controllers
 				Text = d.Name,
 				Value = d.DepartmentId.ToString()
 			});
+			IEnumerable<SelectListItem> SubjectList = _context.Subjects.Select(u => new SelectListItem
+			{
+				Text = u.Name,
+				Value = u.SubjectId.ToString()
+			});
+			ViewData["SubjectList"] = SubjectList;
 			ViewData["DepartmentList"] = DepartmentList;
 			return View(_teacherService.DeleteTeacher(id));
 		}
