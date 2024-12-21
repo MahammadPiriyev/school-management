@@ -107,10 +107,9 @@ SchoolManagementSystem
 ![Home Page](School/wwwroot/assets/ss4.png)
 
 
-## License
+## 👤 Author  
 
-This project is licensed under the [MIT License](LICENSE).
+**Mahammad Piriyev**  
 
----
-
-Feel free to improve this README or add new features to the project. Happy coding!
+- LinkedIn: [My LinkedIn Profile](https://linkedin.com/in/mahammadpiriyev)  
+- Portfolio: [My Portfolio Website](https://mahammadpiriyev.onrender.com/)
