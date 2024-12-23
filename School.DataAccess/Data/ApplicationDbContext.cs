@@ -41,9 +41,9 @@ namespace School.DataAccess.Data
 				.HasForeignKey(t => t.DepartmentId);
 
 			modelBuilder.Entity<Subject>()
-				.HasMany(s => s.Teachers)
-				.WithOne(d => d.Subject)
-				.HasForeignKey(d => d.SubjectId);
+				.HasOne(s => s.Class)
+				.WithMany(d => d.Subjects)
+				.HasForeignKey(d => d.ClassId);
 		}
 	}
 

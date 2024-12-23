@@ -13,5 +13,6 @@ namespace School.Entities
 		public string RoomNumber { get; set; }
 		public DateTime CreatedDate { get; set; }
 		public virtual ICollection<Student> Students { get; set; }
+		public virtual ICollection<Subject> Subjects { get; set; }
 	}
 }

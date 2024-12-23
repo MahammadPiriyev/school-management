@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
 using School.Entities.ViewModels;
+using System.Configuration;
 
 namespace School.Areas.Admin.Controllers
 {

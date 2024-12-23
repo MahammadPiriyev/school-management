@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Td7kZhJxecz6jsope4lXmkgC0sFzUBdCl4lGPKIY/Dk=",
+  "Hash": "8zxtj4J/6Z+jNtQ0VN0lJu2+wAUiM0i4xyfJaSXJCIc=",
   "Source": "School",
   "BasePath": "_content/School",
   "Mode": "Default",
@@ -1571,12 +1571,12 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-bnph5yteqw.gz",
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-lnsuls8kc9.gz",
       "SourceId": "School",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/School",
-      "RelativePath": "js/searchbar#[.{fingerprint=bnph5yteqw}]?.js.gz",
+      "RelativePath": "js/searchbar#[.{fingerprint=lnsuls8kc9}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rcqynlcpo7",
-      "Integrity": "FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA=",
+      "Fingerprint": "p0mbnm7fwu",
+      "Integrity": "OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js"
@@ -4805,6 +4805,27 @@
       "OriginalItemSpec": "wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\9f940842-29c9-4ea7-8753-a2ae8e410293.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/student/9f940842-29c9-4ea7-8753-a2ae8e410293#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czy2c12m0g",
+      "Integrity": "mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\student\\9f940842-29c9-4ea7-8753-a2ae8e410293.png"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher.png",
       "SourceId": "School",
       "SourceType": "Discovered",
@@ -4824,6 +4845,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\teacher.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\0d36c866-5f9d-4add-b04b-e877bdba0c9b.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/teacher/0d36c866-5f9d-4add-b04b-e877bdba0c9b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czy2c12m0g",
+      "Integrity": "mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teacher\\0d36c866-5f9d-4add-b04b-e877bdba0c9b.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png",
+      "SourceId": "School",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\",
+      "BasePath": "_content/School",
+      "RelativePath": "images/teacher/0f7b5121-d0df-45da-8abe-d7bfcd83c10b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czy2c12m0g",
+      "Integrity": "mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teacher\\0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\1d0490c2-e946-43fe-a1cb-6f4aa058b8d4.png",
@@ -4903,8 +4966,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bnph5yteqw",
-      "Integrity": "F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs=",
+      "Fingerprint": "lnsuls8kc9",
+      "Integrity": "b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\searchbar.js"
@@ -8117,7 +8180,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:17:58 GMT"
+          "Value": "Sat, 21 Dec 2024 19:38:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8170,7 +8233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:17:58 GMT"
+          "Value": "Sat, 21 Dec 2024 19:38:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8207,7 +8270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:17:58 GMT"
+          "Value": "Sat, 21 Dec 2024 19:38:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8254,7 +8317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:17:58 GMT"
+          "Value": "Sat, 21 Dec 2024 19:38:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8315,7 +8378,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:17:58 GMT"
+          "Value": "Sat, 21 Dec 2024 19:38:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8360,7 +8423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:17:58 GMT"
+          "Value": "Sat, 21 Dec 2024 19:38:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19656,6 +19719,88 @@
       ]
     },
     {
+      "Route": "images/student/9f940842-29c9-4ea7-8753-a2ae8e410293.czy2c12m0g.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\9f940842-29c9-4ea7-8753-a2ae8e410293.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 19:02:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czy2c12m0g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/student/9f940842-29c9-4ea7-8753-a2ae8e410293.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/student/9f940842-29c9-4ea7-8753-a2ae8e410293.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\9f940842-29c9-4ea7-8753-a2ae8e410293.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 19:02:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
       "Route": "images/teacher.k5i09fvqsv.png",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher.png",
       "Selectors": [],
@@ -19734,6 +19879,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-GO/buovArd78+o7KUq7tGvobo4V0u4C5j6okDzcd3Xc="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/0d36c866-5f9d-4add-b04b-e877bdba0c9b.czy2c12m0g.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\0d36c866-5f9d-4add-b04b-e877bdba0c9b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 19:07:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czy2c12m0g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/teacher/0d36c866-5f9d-4add-b04b-e877bdba0c9b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/0d36c866-5f9d-4add-b04b-e877bdba0c9b.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\0d36c866-5f9d-4add-b04b-e877bdba0c9b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 19:07:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/0f7b5121-d0df-45da-8abe-d7bfcd83c10b.czy2c12m0g.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 09:26:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czy2c12m0g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/teacher/0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/teacher/0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher\\0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 09:26:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mO13/+WcEHAmHPPhgN3ihKwklztDW6eQfUGRQoVus/A="
         }
       ]
     },
@@ -19984,8 +20293,8 @@
       ]
     },
     {
-      "Route": "js/searchbar.bnph5yteqw.js",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-bnph5yteqw.gz",
+      "Route": "js/searchbar.js",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-lnsuls8kc9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -20004,15 +20313,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA=\""
+          "Value": "\"OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:45:14 GMT"
+          "Value": "Mon, 23 Dec 2024 09:44:17 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -20028,26 +20337,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs=\""
+          "Value": "W/\"b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "bnph5yteqw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/searchbar.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs="
+          "Value": "sha256-b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg="
         }
       ]
     },
     {
-      "Route": "js/searchbar.bnph5yteqw.js",
+      "Route": "js/searchbar.js",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -20057,7 +20358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "662"
+          "Value": "664"
         },
         {
           "Name": "Content-Type",
@@ -20065,35 +20366,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs=\""
+          "Value": "\"b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:45:14 GMT"
+          "Value": "Mon, 23 Dec 2024 09:44:17 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "bnph5yteqw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/searchbar.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs="
+          "Value": "sha256-b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg="
         }
       ]
     },
     {
-      "Route": "js/searchbar.bnph5yteqw.js.gz",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-bnph5yteqw.gz",
+      "Route": "js/searchbar.js.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-lnsuls8kc9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -20110,11 +20403,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA=\""
+          "Value": "\"OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:45:14 GMT"
+          "Value": "Mon, 23 Dec 2024 09:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug="
+        }
+      ]
+    },
+    {
+      "Route": "js/searchbar.lnsuls8kc9.js",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-lnsuls8kc9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002890173410"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "345"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 09:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lnsuls8kc9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/searchbar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg="
+        }
+      ]
+    },
+    {
+      "Route": "js/searchbar.lnsuls8kc9.js",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 09:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lnsuls8kc9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/searchbar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b24glYMUY7CLjojyjOqZ4nLA5sbqXc2elMq7JKG+zrg="
+        }
+      ]
+    },
+    {
+      "Route": "js/searchbar.lnsuls8kc9.js.gz",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-lnsuls8kc9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 09:44:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20132,7 +20578,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bnph5yteqw"
+          "Value": "lnsuls8kc9"
         },
         {
           "Name": "label",
@@ -20140,144 +20586,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA="
-        }
-      ]
-    },
-    {
-      "Route": "js/searchbar.js",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-bnph5yteqw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002890173410"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "345"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:45:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs="
-        }
-      ]
-    },
-    {
-      "Route": "js/searchbar.js",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\js\\searchbar.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "662"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:45:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-F9l80RlMo9J6Eu8iVHX0NQvougJSk9peDK5Z6jKcWWs="
-        }
-      ]
-    },
-    {
-      "Route": "js/searchbar.js.gz",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\School\\School\\obj\\Debug\\net9.0\\compressed\\4qbh6gzpie-bnph5yteqw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "345"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 19:45:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FVutIZZ1glXO3ekEemLfaTGSVgoajTub+s88qZLHRYA="
+          "Value": "sha256-OQOnfFAINCwMv9TihKnW08YgTbIapiBLkhdg/zwT3ug="
         }
       ]
     },
@@ -40525,7 +40834,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40578,7 +40887,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40615,7 +40924,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40662,7 +40971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40723,7 +41032,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40768,7 +41077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40823,7 +41132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40884,7 +41193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40929,7 +41238,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40984,7 +41293,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41037,7 +41346,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41074,7 +41383,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 11:03:38 GMT"
+          "Value": "Mon, 23 Dec 2024 08:47:17 GMT"
         },
         {
           "Name": "Cache-Control",

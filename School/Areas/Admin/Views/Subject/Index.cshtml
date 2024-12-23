@@ -1,6 +1,6 @@
 ﻿@using School.Entities
-@model List<Subject>
-
+@using School.Entities.ViewModels
+@model SubjectViewModel
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,21 +15,30 @@
         <div class="container">
             <div class="table-actions">
                 <input type="text" id="search-bar" placeholder="Search by name..." />
+                <select id="filter-select">
+                    <option value="all" disabled selected>Please Select Class</option>
+                    @foreach (var obj in Model.ClassList)
+                    {
+                        <option>@obj.Name</option>
+                    }        
+                </select>
             </div>
             <table class="table">
                 <thead>
                     <tr>
                         <th>Id</th>
                         <th>Subject Name</th>
+                        <th>Class</th>
                         <th>Lesson Hours</th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var obj in Model)
+                    @foreach (var obj in Model.SubjectList)
                     {
                         <tr>
                             <td>@obj.SubjectId</td>
                             <td>@obj.Name</td>
+                            <td>@obj.Class.Name</td>
                             <td>@obj.LessonHours</td>
                             <td><a asp-area="Admin" asp-controller="Subject" asp-action="Edit" asp-route-id="@obj.SubjectId" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a></td>
                             <td><a asp-area="Admin" asp-controller="Subject" asp-action="Delete" asp-route-id="@obj.SubjectId" class="btn btn-danger"><i class="fa-solid fa-trash" style="color: #ffffff;"></i></a></td>
@@ -40,7 +49,22 @@
         </div>
     </div>
     <script src="~/js/searchbar.js"></script>
+    <script src="https://kit.fontawesome.com/6a6d1c9932.js" crossorigin="anonymous"></script>
+    <script>
+                document.getElementById('filter-select').addEventListener('change', function () {
+            const selectedValue = this.value.toLowerCase(); // Get the selected value and convert to lowercase
+            const rows = document.querySelectorAll('table tbody tr'); // Select all rows in the table body
 
+            rows.forEach(row => {
+                const rowText = row.textContent.toLowerCase(); // Get the row's text content and convert to lowercase
+                if (selectedValue === 'all' || rowText.includes(selectedValue)) {
+                    row.style.display = ''; // Show the row if it matches the selected value
+                } else {
+                    row.style.display = 'none'; // Hide the row if it doesn't match
+                }
+            });
+        });
+    </script>
 </body>
 </html>
 

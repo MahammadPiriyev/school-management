@@ -18,6 +18,11 @@ namespace School.DataAccess.Repository
 			_context = context;	
 		}
 
+		public IEnumerable<Subject> GetSubjects(Expression<Func<Subject, bool>> filter)
+		{
+			return _context.Subjects.ToList();
+		}
+
 		public void Update(Subject subject)
 		{
 			_context.Update(subject);

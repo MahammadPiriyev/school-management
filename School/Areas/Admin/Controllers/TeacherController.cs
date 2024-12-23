@@ -158,7 +158,7 @@ namespace School.Areas.Admin.Controllers
 		[HttpPost]
 		public IActionResult Delete(Teacher teacher)
 		{
-			_teacherService.Delete(teacher);	
+			_teacherService.Delete(teacher);
 			return RedirectToAction(nameof(Index));
 		}
 

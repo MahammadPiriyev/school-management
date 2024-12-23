@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace School.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class AddSchoolDb : Migration
+    public partial class AddSchoolDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,6 +27,19 @@ namespace School.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Classes", x => x.ClassId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Departments",
+                columns: table => new
+                {
+                    DepartmentId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Departments", x => x.DepartmentId);
                 });
 
             migrationBuilder.CreateTable(
@@ -56,19 +69,6 @@ namespace School.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Roles", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Subject",
-                columns: table => new
-                {
-                    SubjectId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Subject", x => x.SubjectId);
                 });
 
             migrationBuilder.CreateTable(
@@ -181,22 +181,23 @@ namespace School.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Departments",
+                name: "Subjects",
                 columns: table => new
                 {
-                    DepartmentId = table.Column<int>(type: "int", nullable: false)
+                    SubjectId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SubjectId = table.Column<int>(type: "int", nullable: false)
+                    LessonHours = table.Column<int>(type: "int", nullable: false),
+                    ClassId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Departments", x => x.DepartmentId);
+                    table.PrimaryKey("PK_Subjects", x => x.SubjectId);
                     table.ForeignKey(
-                        name: "FK_Departments_Subject_SubjectId",
-                        column: x => x.SubjectId,
-                        principalTable: "Subject",
-                        principalColumn: "SubjectId",
+                        name: "FK_Subjects_Classes_ClassId",
+                        column: x => x.ClassId,
+                        principalTable: "Classes",
+                        principalColumn: "ClassId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -228,13 +229,13 @@ namespace School.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Departments_SubjectId",
-                table: "Departments",
-                column: "SubjectId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Students_ClassId",
                 table: "Students",
+                column: "ClassId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Subjects_ClassId",
+                table: "Subjects",
                 column: "ClassId");
 
             migrationBuilder.CreateIndex(
@@ -254,6 +255,9 @@ namespace School.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "Students");
+
+            migrationBuilder.DropTable(
+                name: "Subjects");
 
             migrationBuilder.DropTable(
                 name: "Teachers");
@@ -278,9 +282,6 @@ namespace School.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "Departments");
-
-            migrationBuilder.DropTable(
-                name: "Subject");
 
             migrationBuilder.DropSequence(
                 name: "IBaseEntitySequence");

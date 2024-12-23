@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using School.DataAccess.Data;
 using School.DataAccess.Repository.IRepository;
 using School.Entities;
+using School.Entities.ViewModels;
 
 namespace School.Areas.Admin.Controllers
 {
@@ -20,10 +22,33 @@ namespace School.Areas.Admin.Controllers
 
 		public IActionResult Index()
 		{
-			List<Subject> SubjectList = _unitOfWork.Subjects.GetAll().ToList();
-			return View(SubjectList);
+			List<Subject> subjectList = _unitOfWork.Subjects.GetAll().ToList();
+			List<Class> classList = _unitOfWork.Classes.GetAll().ToList();
+			var subjectViewModel = new SubjectViewModel
+			{
+				ClassList = classList,
+				SubjectList = subjectList
+			};
+			return View(subjectViewModel);
 		}
-
+		//public IActionResult GetSubjects(int classId)
+		//{
+		//	var subjects = _context.Subjects
+		//						   .Where(s => s.ClassId == classId)
+		//						   .Select(s => new { s.SubjectId, s.Name })
+		//						   .ToList();
+		//	return View(subjects);
+		//}
+		public IActionResult GetClasses()
+		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(c => new SelectListItem
+			{
+				Text = c.Name,
+				Value = c.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
+			return View(ClassList);
+		}
 		public IActionResult Info(int id)
 		{
 			var subjectFromDb = _unitOfWork.Subjects.Get(s => s.SubjectId == id);
@@ -31,6 +56,12 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Add()
 		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(c => new SelectListItem
+			{
+				Text = c.Name,
+				Value = c.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
 			return View();
 		}
 		[HttpPost]
@@ -42,6 +73,12 @@ namespace School.Areas.Admin.Controllers
 		}
 		public IActionResult Edit(int id)
 		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(c => new SelectListItem
+			{
+				Text = c.Name,
+				Value = c.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
 			if (id == 0)
 			{
 				return NotFound();
@@ -63,6 +100,12 @@ namespace School.Areas.Admin.Controllers
 
 		public IActionResult Delete(int id)
 		{
+			IEnumerable<SelectListItem> ClassList = _context.Classes.Select(c => new SelectListItem
+			{
+				Text = c.Name,
+				Value = c.ClassId.ToString()
+			});
+			ViewData["ClassList"] = ClassList;
 			var subjectFromDb = _unitOfWork.Subjects.Get(c => c.SubjectId == id);
 			return View(subjectFromDb);
 		}

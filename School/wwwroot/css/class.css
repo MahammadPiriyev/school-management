@@ -13,6 +13,12 @@
     width: 100%;
     outline: none;
 }
+#filter-select {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    outline: none;
+}
 .table {
     border: none;
     margin-top: 30px;
