@@ -31,6 +31,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstra
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\exam.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation\dist\additional-methods.js
@@ -61,6 +62,7 @@ C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\js\bootstrap
 C:\Users\ASUS\source\repos\School\School\wwwroot\js\site.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\ASUS\source\repos\School\School\wwwroot\css\examadd.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\ASUS\source\repos\School\School\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
@@ -82,6 +84,8 @@ wwwroot\css\classadd.css
 wwwroot\css\dashboard.css
 wwwroot\css\department.css
 wwwroot\css\departmentadd.css
+wwwroot\css\exam.css
+wwwroot\css\examadd.css
 wwwroot\css\sidebar.css
 wwwroot\css\site.css
 wwwroot\css\student.css
@@ -92,12 +96,16 @@ wwwroot\css\teacheradd.css
 wwwroot\favicon.ico
 wwwroot\images\3135715.png
 wwwroot\images\Admin+Panel.png
+wwwroot\images\student\094fe7c3-94a7-498b-8c17-dbec0175ee19.png
 wwwroot\images\student\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png
 wwwroot\images\student\1d1b10b3-af9f-4712-9b01-fd9e990f703e.png
 wwwroot\images\student\49e18307-f3bf-4f82-8575-ec1cb34c37d8.png
 wwwroot\images\student\69187df6-6bfe-4e9b-9430-9b030e9de89f.png
+wwwroot\images\student\8084038e-f4ad-49e7-bc5c-38e4368e1ae2.png
 wwwroot\images\student\8bd20fd0-4198-49b7-b970-5959b31743ca.png
 wwwroot\images\student\9f940842-29c9-4ea7-8753-a2ae8e410293.png
+wwwroot\images\student\cf13ef92-bfd9-41fa-93fa-16aebce3d0df.png
+wwwroot\images\student\e8b15768-bbf2-4218-9b94-707341095892.png
 wwwroot\images\teacher.png
 wwwroot\images\teacher\0d36c866-5f9d-4add-b04b-e877bdba0c9b.png
 wwwroot\images\teacher\0f7b5121-d0df-45da-8abe-d7bfcd83c10b.png

@@ -291,6 +291,57 @@ namespace School.DataAccess.Migrations
                     b.ToTable("Departments");
                 });
 
+            modelBuilder.Entity("School.Entities.Exam", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClassId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ExamDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ExamName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClassId");
+
+                    b.ToTable("Exams");
+                });
+
+            modelBuilder.Entity("School.Entities.Mark", b =>
+                {
+                    b.Property<int>("MarkId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MarkId"));
+
+                    b.Property<int>("ExamId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("MarkValue")
+                        .HasColumnType("float");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("MarkId");
+
+                    b.HasIndex("ExamId");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("Marks");
+                });
+
             modelBuilder.Entity("School.Entities.Subject", b =>
                 {
                     b.Property<int>("SubjectId")
@@ -362,6 +413,36 @@ namespace School.DataAccess.Migrations
                     b.ToTable("Teachers");
                 });
 
+            modelBuilder.Entity("School.Entities.Exam", b =>
+                {
+                    b.HasOne("School.Entities.Class", "Class")
+                        .WithMany("Exams")
+                        .HasForeignKey("ClassId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Class");
+                });
+
+            modelBuilder.Entity("School.Entities.Mark", b =>
+                {
+                    b.HasOne("School.Entities.Exam", "Exam")
+                        .WithMany("Marks")
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("School.Entities.Student", "Student")
+                        .WithMany("Marks")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Exam");
+
+                    b.Navigation("Student");
+                });
+
             modelBuilder.Entity("School.Entities.Subject", b =>
                 {
                     b.HasOne("School.Entities.Class", "Class")
@@ -397,6 +478,8 @@ namespace School.DataAccess.Migrations
 
             modelBuilder.Entity("School.Entities.Class", b =>
                 {
+                    b.Navigation("Exams");
+
                     b.Navigation("Students");
 
                     b.Navigation("Subjects");
@@ -405,6 +488,16 @@ namespace School.DataAccess.Migrations
             modelBuilder.Entity("School.Entities.Department", b =>
                 {
                     b.Navigation("Teachers");
+                });
+
+            modelBuilder.Entity("School.Entities.Exam", b =>
+                {
+                    b.Navigation("Marks");
+                });
+
+            modelBuilder.Entity("School.Entities.Student", b =>
+                {
+                    b.Navigation("Marks");
                 });
 #pragma warning restore 612, 618
         }

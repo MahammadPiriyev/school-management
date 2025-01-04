@@ -14,5 +14,6 @@ namespace School.Entities
 		public DateTime CreatedDate { get; set; }
 		public virtual ICollection<Student> Students { get; set; }
 		public virtual ICollection<Subject> Subjects { get; set; }
+		public virtual ICollection<Exam> Exams { get; set; }
 	}
 }

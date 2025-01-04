@@ -17,6 +17,8 @@ namespace School.DataAccess.Data
 		public DbSet<Class> Classes { get; set; }
 		public DbSet<Department> Departments { get; set; }
 		public DbSet<Subject> Subjects { get; set; }
+		public DbSet<Exam> Exams { get; set; }
+		public DbSet<Mark> Marks { get; set; }
 		public DbSet<ApplicationUser> applicationUser { get; set; }
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
@@ -44,6 +46,23 @@ namespace School.DataAccess.Data
 				.HasOne(s => s.Class)
 				.WithMany(d => d.Subjects)
 				.HasForeignKey(d => d.ClassId);
+
+			modelBuilder.Entity<Exam>()
+				.HasOne(e => e.Class)
+				.WithMany(c => c.Exams)
+				.HasForeignKey(e => e.ClassId);
+
+			modelBuilder.Entity<Mark>()
+				.HasOne(m => m.Student)
+				.WithMany(s => s.Marks)
+				.HasForeignKey(m => m.StudentId)
+				.OnDelete(DeleteBehavior.Restrict);  // No cascading delete for Student
+
+			modelBuilder.Entity<Mark>()
+				.HasOne(m => m.Exam)
+				.WithMany(e => e.Marks)
+				.HasForeignKey(m => m.ExamId)
+				.OnDelete(DeleteBehavior.Restrict);
 		}
 	}
 

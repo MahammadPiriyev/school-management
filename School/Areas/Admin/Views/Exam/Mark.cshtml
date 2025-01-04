@@ -1,0 +1,71 @@
+﻿@using School.Entities
+@using School.Entities.ViewModels
+@model MarkViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/student.css" rel="stylesheet" />
+    <link href="~/css/dashboard.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>@Model.ExamName</h2>
+            <form method="get" action="/Admin/Student/Index">
+                <div class="table-actions">
+                    <input type="text" id="search-bar" placeholder="Search ..." />
+                </div>
+            </form>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Class</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Students.Any())
+                    {
+                        @foreach (var student in Model.Students)
+                        {
+                            <tr @* onclick="window.location='@Url.Action("Info", "Student", new { id = student.Id, area = "Admin" })'" style="cursor: pointer;" *@>
+                                <td>@student.FirstName</td>
+                                <td>@student.LastName</td>
+                                <td>@student.Email</td>
+                                <td>@student.Phone</td>
+                                <td>@student.Class.Name</td>
+                                <td>
+                                    <form method="post">
+                                        <input type="hidden" asp-for="ExamId" value="@Model.ExamId" />
+                                        <input type="hidden" asp-for="StudentId" value="@student.Id" />
+                                        @if (Model.MarkValue == 0){
+                                            <input asp-for="MarkValue" placeholder="Mark" />
+                                            <button type="submit">Submit</button>
+                                        }
+                                        else{
+                                            <p>@Model.MarkValue</p>
+                                            <button type="submit">Update</button>
+                                        }
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }                    
+                <tbody>
+            </table>
+        </div>
+    </div>
+    <script src="~/js/searchbar.js"></script>
+
+
+</body>
+</html>
+

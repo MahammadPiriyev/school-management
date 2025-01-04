@@ -45,6 +45,14 @@
       "PackagePath": "staticwebassets\\css\\departmentadd.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\exam.css",
+      "PackagePath": "staticwebassets\\css\\exam.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\examadd.css",
+      "PackagePath": "staticwebassets\\css\\examadd.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\css\\sidebar.css",
       "PackagePath": "staticwebassets\\css\\sidebar.css"
     },
@@ -85,6 +93,10 @@
       "PackagePath": "staticwebassets\\images\\Admin+Panel.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\094fe7c3-94a7-498b-8c17-dbec0175ee19.png",
+      "PackagePath": "staticwebassets\\images\\student\\094fe7c3-94a7-498b-8c17-dbec0175ee19.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png",
       "PackagePath": "staticwebassets\\images\\student\\0bda5544-0ff9-436a-87bc-a54e862ab7fe.png"
     },
@@ -101,12 +113,24 @@
       "PackagePath": "staticwebassets\\images\\student\\69187df6-6bfe-4e9b-9430-9b030e9de89f.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\8084038e-f4ad-49e7-bc5c-38e4368e1ae2.png",
+      "PackagePath": "staticwebassets\\images\\student\\8084038e-f4ad-49e7-bc5c-38e4368e1ae2.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png",
       "PackagePath": "staticwebassets\\images\\student\\8bd20fd0-4198-49b7-b970-5959b31743ca.png"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\9f940842-29c9-4ea7-8753-a2ae8e410293.png",
       "PackagePath": "staticwebassets\\images\\student\\9f940842-29c9-4ea7-8753-a2ae8e410293.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\cf13ef92-bfd9-41fa-93fa-16aebce3d0df.png",
+      "PackagePath": "staticwebassets\\images\\student\\cf13ef92-bfd9-41fa-93fa-16aebce3d0df.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\student\\e8b15768-bbf2-4218-9b94-707341095892.png",
+      "PackagePath": "staticwebassets\\images\\student\\e8b15768-bbf2-4218-9b94-707341095892.png"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\School\\School\\wwwroot\\images\\teacher.png",

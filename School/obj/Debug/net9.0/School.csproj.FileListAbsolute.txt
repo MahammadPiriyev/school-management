@@ -437,8 +437,6 @@ C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\School.Business.dll
 C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\School.Business.pdb
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\kupfn7pkno-7uhydywsxn.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\69vk8ruw8b-nepqqufxkd.gz
-C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\ktd2ve4v3t-7ofhk5bira.gz
-C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\vnww3t3imm-4wlmf9nu0n.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\6jdoa1f7rs-ymijkp5v8f.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\p77dq7uucr-4wlmf9nu0n.gz
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\l03g9e9wbj-3epad5jjx9.gz
@@ -452,3 +450,7 @@ C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\Microsoft.Win32.System
 C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\System.Drawing.Common.dll
 C:\Users\ASUS\source\repos\School\School\bin\Debug\net9.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\4qbh6gzpie-lnsuls8kc9.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\vnww3t3imm-keaolje2uq.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\hhv7yt74ch-kn8rviv4pp.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\u5hjutzdst-m3pqcyz5ok.gz
+C:\Users\ASUS\source\repos\School\School\obj\Debug\net9.0\compressed\ktd2ve4v3t-bid65730jt.gz

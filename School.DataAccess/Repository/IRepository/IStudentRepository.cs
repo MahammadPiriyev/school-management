@@ -10,7 +10,5 @@ namespace School.DataAccess.Repository.IRepository
 	public interface IStudentRepository : IBaseRepository<Student>
 	{
 		void Update(Student student);
-		//IEnumerable<Student> Search(string searchTerm);
-
 	}
 }
